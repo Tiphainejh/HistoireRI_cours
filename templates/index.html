@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Accueil - Cours HRI{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h2>Bienvenue sur le site des cours d'HRI</h2>
+    <p>Retrouvez tous vos cours d'Histoire des Relations Internationales</p>
+</div>
+
+<div class="cours-grid">
+    {% for c in cours %}
+    <div class="cours-card">
+        <h3>{{ c.titre }}</h3>
+        <p>{{ c.description }}</p>
+        <a href="{{ c.url }}" class="btn">Voir le cours</a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
