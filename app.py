@@ -40,6 +40,18 @@ def index():
             'titre': "Histoire des organisations internationales",
             'description': 'De la SDN à l\'ONU : institutionnalisation des relations internationales',
             'url': '/cours/organisations-internationales'
+        },
+        {
+            'id': 'quest-ce-que-europe',
+            'titre': "Qu'est-ce que l'Europe ?",
+            'description': 'Définitions, mythes et représentations de l\'idée européenne',
+            'url': '/cours/quest-ce-que-europe'
+        },
+        {
+            'id': 'definitions-ri',
+            'titre': "Les relations internationales - Définitions",
+            'description': 'Introduction historiographique et acteurs des relations internationales',
+            'url': '/cours/definitions-ri'
         }
     ]
     return render_template('index.html', cours=cours_list)
@@ -67,6 +79,14 @@ def cours_onu_integration():
 @app.route('/cours/organisations-internationales')
 def cours_organisations_internationales():
     return render_template('cours_organisations.html')
+
+@app.route('/cours/quest-ce-que-europe')
+def cours_europe():
+    return render_template('cours_europe.html')
+
+@app.route('/cours/definitions-ri')
+def cours_definitions_ri():
+    return render_template('cours_definitions_ri.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
