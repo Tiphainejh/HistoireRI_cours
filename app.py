@@ -28,5 +28,6 @@ def cours_economie():
 def cours_diplomatie_culturelle():
     return render_template('cours_diplomatie_culturelle.html')
 
+# Pour Vercel
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
