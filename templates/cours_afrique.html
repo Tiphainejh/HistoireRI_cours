@@ -1,0 +1,1016 @@
+{% extends "base.html" %}
+
+{% block title %}L'Europe, la Méditerranée et l'Afrique au XXe siècle{% endblock %}
+
+{% block content %}
+<div class="cours-content">
+    <a href="/" class="back-link">&larr; Retour à l'accueil</a>
+    
+    <h1>L'Europe, la Méditerranée et l'Afrique au XXe siècle</h1>
+
+    <nav class="table-of-contents">
+        <h3>Sommaire</h3>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#expansion">Les fondements de l'expansion européenne</a></li>
+            <li><a href="#contestation">De la contestation des empires aux indépendances</a></li>
+            <li><a href="#consequences">Les conséquences durables de la (dé)colonisation</a></li>
+            <li><a href="#migrations-coloniales">Migrations et diasporas : un héritage colonial</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        
+        <p>La colonisation et la décolonisation constituent les deux facettes d'un même phénomène qui ont profondément marqué les relations internationales au XXe siècle. Ces processus historiques ont façonné durablement les rapports entre l'Europe, la Méditerranée et l'Afrique, créant des liens complexes qui persistent aujourd'hui encore.</p>
+    </section>
+
+    <!-- Frise chronologique -->
+    <div class="timeline-container">
+        <h2 style="text-align: center; color: #667eea; margin-bottom: 3rem; font-size: 2.5rem;">📅 Chronologie colonisation-décolonisation</h2>
+        <div class="timeline">
+            <div class="timeline-event">
+                <div class="timeline-date">XVIe-XXe</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Expansion européenne</h3>
+                    <p class="timeline-event-description">Hégémonie culturelle sur vastes territoires. D'abord Amérique, puis Afrique et Asie. XIXe siècle = phase d'hégémonie européenne.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Colonisation</span>
+                        <span class="timeline-tag">Hégémonie</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1830</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Début colonisation française Algérie</h3>
+                    <p class="timeline-event-description">Installation massive de colons européens. L'Algérie devient départements français (1848). 1 million de pieds-noirs en 1962.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">France</span>
+                        <span class="timeline-tag">Algérie</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1900</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Première conférence panafricaine</h3>
+                    <p class="timeline-event-description">Londres. Premiers espaces de dialogue et revendications indépendantistes. Délégués de l'Empire britannique.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Panafricanisme</span>
+                        <span class="timeline-tag">Résistance</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1914-1918</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Première Guerre mondiale</h3>
+                    <p class="timeline-event-description">Mobilisation massive dans les colonies (600 000 soldats). Déception : droit des peuples ne s'applique pas aux colonies. Empires commencent à vaciller.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Mobilisation</span>
+                        <span class="timeline-tag">Déception</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1925-1926</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Révolte d'Abd el-Krim (Rif)</h3>
+                    <p class="timeline-event-description">Guerre du Rif au Maroc. Union des peuples musulmans contre tutelle européenne. Répression franco-espagnole conjointe.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Résistance</span>
+                        <span class="timeline-tag">Maroc</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1935-1936</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Conquête italienne Éthiopie</h3>
+                    <p class="timeline-event-description">Dernière expansion coloniale. Restauration indépendance éthiopienne (1941) = début décolonisation liée à WWII.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Italie</span>
+                        <span class="timeline-tag">Éthiopie</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1945</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">5e Congrès panafricain Manchester</h3>
+                    <p class="timeline-event-description">Tournant décisif. Revendications indépendance continent africain. Création Ligue arabe.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Panafricanisme</span>
+                        <span class="timeline-tag">Indépendances</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1948</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Création État d'Israël</h3>
+                    <p class="timeline-event-description">14 mai : proclamation par Ben Gourion. Première guerre israélo-arabe. Début conflit israélo-palestinien.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Proche-Orient</span>
+                        <span class="timeline-tag">Conflit</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1954-1962</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Guerre d'Algérie</h3>
+                    <p class="timeline-event-description">Insurrection FLN (novembre 1954). Accords d'Évian (mars 1962). Centaines de milliers de morts. Exode 1 million pieds-noirs.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Guerre</span>
+                        <span class="timeline-tag">Indépendance</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1956</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Indépendances Tunisie et Maroc</h3>
+                    <p class="timeline-event-description">Protectorats français obtiennent indépendance. Processus relativement pacifique comparé à l'Algérie.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Protectorats</span>
+                        <span class="timeline-tag">Négociation</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1957</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Indépendance Ghana</h3>
+                    <p class="timeline-event-description">Kwame Nkrumah. Premier pays d'Afrique subsaharienne indépendant. Modèle panafricaniste.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Ghana</span>
+                        <span class="timeline-tag">Nkrumah</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1960</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">"Année de l'Afrique"</h3>
+                    <p class="timeline-event-description">16 colonies africaines françaises indépendantes. 12 États naissent d'AOF et AEF. Communauté française proposée par de Gaulle (1958).</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Afrique</span>
+                        <span class="timeline-tag">France</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1975</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Indépendances portugaises</h3>
+                    <p class="timeline-event-description">Angola, Mozambique, Cap-Vert, Guinée-Bissau. Après longues guerres de libération. Dictature Salazar/Caetano résiste longtemps.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Portugal</span>
+                        <span class="timeline-tag">Guerres</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1990</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Indépendance Namibie</h3>
+                    <p class="timeline-event-description">Dernier territoire africain à accéder à la souveraineté. Conflit avec Afrique du Sud. Fin Apartheid (1994).</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Namibie</span>
+                        <span class="timeline-tag">Apartheid</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="expansion">
+        <h2>I. Les fondements de l'expansion européenne</h2>
+        
+        <h3>L'expansion européenne : phases et formes</h3>
+        
+        <p>L'expansion européenne s'étend du XVIe au XXe siècle, connaissant différentes phases et formes variées. Elle établit une hégémonie culturelle sur de vastes territoires assujettis, avec des phases de politiques mises en œuvre, parfois mises en pause, et des interactions nombreuses, dans la violence ou non. Cette expansion se dirige d'abord vers l'Amérique, puis vers l'Afrique et l'Asie.</p>
+        
+        <p>Au XIXe siècle, on assiste à une phase d'hégémonie européenne. Ce terme reflète l'écriture européenne de l'histoire et décrit une domination politique, militaire, technique et financière sur des territoires qui vont contribuer à la puissance de ces pays colonisateurs. Cette hégémonie s'appuie sur une supériorité technologique, une organisation militaire efficace et des moyens financiers considérables.</p>
+
+        <h3>Les motivations de la colonisation</h3>
+        
+        <div class="schema-box">
+            <h3 class="schema-title">🌍 Les multiples motivations de la colonisation</h3>
+            <div class="schema-grid">
+                <div class="schema-item">
+                    <div class="schema-item-title">👥 Démographie</div>
+                    <div class="schema-item-content">Population européenne augmente au XIXe siècle. Progrès technologiques engendrent mouvements migratoires vers nouveaux territoires.</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">💰 Économie</div>
+                    <div class="schema-item-content">Besoin d'expansion financière, recherche de nouveaux débouchés commerciaux, exploitation des ressources.</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">⚔️ Stratégie</div>
+                    <div class="schema-item-content">Montrer sa puissance, rivalité internationale, contrôle points de passage maritimes, prestige national.</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">🎭 Idéologie</div>
+                    <div class="schema-item-content">Mission civilisatrice : apporter "lumières de la civilisation aux peuples barbares". Nationalisme, expansion du génie national.</div>
+                </div>
+            </div>
+        </div>
+        
+        <p>Les motivations stratégiques et politiques sont tout aussi importantes. La colonisation permet de montrer sa puissance dans un contexte de rivalité économique internationale. Elle constitue une manifestation du prestige national, une expression du nationalisme et de l'expansion du génie national. Pour certains pays comme l'Italie, il s'agit de retrouver les frontières de l'ancien Empire romain.</p>
+        
+        <p>Une dimension souvent sous-estimée concerne le déplacement des conflits européens. La colonisation offre un exutoire aux tensions intereuropéennes, permettant aux rivalités de s'exprimer en dehors du continent européen. Au départ, l'exploitation des ressources n'était pas nécessairement une motivation première, mais elle deviendra centrale avec le temps.</p>
+
+        <h3>Des métropoles convaincues de leur mission civilisatrice</h3>
+        
+        <p>Les puissances coloniales développent une idéologie puissante pour justifier leur expansion : la mission civilisatrice. Cette idée présente la colonisation comme l'apport "des lumières de la civilisation aux peuples barbares". Il s'agit d'exporter la civilisation à l'extérieur des frontières européennes. Ce mythe colonial va s'imposer très profondément dans les sociétés européennes, notamment en France, raison pour laquelle il sera difficile pour beaucoup d'accepter la séparation avec ces colonies.</p>
+        
+        <div class="highlight-box">
+            <h4>Exemple : Manuel scolaire français (1882)</h4>
+            <p>"Les enfants de Marcel", manuel d'instruction morale et civique pour l'école primaire publié en 1882, affirme :</p>
+            <p style="font-style: italic;">"Aujourd'hui la côte de l'Afrique, au lieu d'être un repaire de brigands, s'est transformée en un grand centre de commerce où toutes les nations viennent s'alimenter. Les terres incultes et fiévreuses y deviennent saines et fertiles ; l'Algérie, plus grande que notre pays natal, se peuple chaque jour. La France, en colonisant l'Algérie, a rendu et rend encore un grand service à la civilisation".</p>
+        </div>
+        
+        <p>À gauche, on accuse déjà l'exploitation des peuples soumis, mais ces oppositions restent assez limitées et n'empêchent pas une colonisation brutale et longue d'une majeure partie du continent africain. À l'époque, la représentation du monde et la vision du monde étaient modelées par ce discours colonial omniprésent.</p>
+
+        <h3>L'Europe, la Méditerranée et l'Afrique : de la mare nostrum au lien entre les deux continents</h3>
+        
+        <p>La mer Méditerranée occupe une place changeante dans les représentations géographiques et géopolitiques au fil des siècles. Pour les Romains, elle constitue la <em>mare nostrum</em>, la mer "au centre du monde", comme l'illustre la carte de Pomponius Mela au Ier siècle après J.-C. Cette mer lie les différentes parties de l'Empire romain et structure l'espace connu.</p>
+        
+        <p>Pour le monde arabe médiéval, la perspective change radicalement. La carte du géographe arabe Al-Idrissi au XIIe siècle (où le nord et le sud sont inversés selon nos conventions actuelles) montre une mer en périphérie occidentale du monde musulman, dont le centre se situe ailleurs.</p>
+        
+        <p>La Méditerranée perd son intérêt stratégique central à partir du XVe siècle avec le développement des grands échanges commerciaux mondiaux. Les routes maritimes vers les Amériques et les Indes par le cap de Bonne-Espérance relèguent la Méditerranée en marge des grands flux commerciaux.</p>
+        
+        <div class="highlight-box">
+            <strong>La Méditerranée dans le projet colonial :</strong> La Méditerranée retrouve son importance avec l'expansion coloniale du XIXe siècle. Elle redevient une mer centrale pour les Européens car elle fait le lien entre l'Europe et l'Afrique. La colonisation et la vision du monde qui l'accompagne transforment la perception des espaces.
+        </div>
+        
+        <p>Au XIXe siècle apparaît tout un vocabulaire pour parler de cette unité "méditerranéenne". Le géographe Élisée Reclus développe dans sa "Nouvelle géographie universelle" (1876-1884) l'idée de la Méditerranée comme matrice de civilisations successives qui ont marqué ce territoire et qui s'entrecroisent. La Méditerranée est présentée comme un axe civilisationnel à la jonction de trois continents, permettant de justifier que l'Afrique et l'Europe ne font qu'un.</p>
+
+        <h3>Lier l'Afrique à l'Europe : l'idée d'Eurafrique</h3>
+        
+        <p>Le concept d'"Eurafrique" apparaît après la Première Guerre mondiale en France et en Italie. Il vise à lier politiquement et culturellement l'Europe et l'Afrique dans une vision indissociable de la colonisation. Cette idée connaît son développement le plus abouti dans les années 1920-1930.</p>
+        
+        <p>Richard Coudenhove-Kalergi, théoricien du mouvement Paneuropa, développe cette vision dans ses écrits. Dans la revue Paneurope en 1929, il affirme : "L'Europe est fille de l'Asie – et la mère de l'Amérique – mais elle est aussi la maîtresse de l'Afrique. C'est pourquoi l'Europe est liée par la destinée de l'Afrique, responsable du destin de l'Afrique. C'est pourquoi le problème africain constitue une partie du problème européen. C'est pourquoi l'Afrique forme, politiquement et économiquement, le complément tropical de l'Europe."</p>
+        
+        <p>Le projet Paneuropa propose un ensemble européen dans lequel les colonies constituent à la fois un débouché commercial et une source de matières premières. Cette période correspond à une nouvelle phase de l'histoire coloniale où les États mettent en place une politique de développement économique et politique de leurs empires, cherchant à les intégrer dans un ensemble national cohérent. Le summum de l'expansion coloniale se situe dans l'entre-deux-guerres.</p>
+        
+        <p>Dans les années 1930, les nazis et les fascistes vont récupérer et détourner cette conception pour justifier leur projet de soumettre l'Europe et les territoires coloniaux sous leur domination. L'idée d'Eurafrique, initialement pensée comme un projet d'union, devient un instrument de domination totalitaire.</p>
+
+        <h3>La Méditerranée dans l'historiographie au XXe siècle</h3>
+        
+        <div class="highlight-box">
+            <h4>Fernand Braudel</h4>
+            <p>L'historien français Fernand Braudel a profondément renouvelé l'approche de la Méditerranée avec son œuvre majeure "La Méditerranée et le monde méditerranéen à l'époque de Philippe II". Il écrit :</p>
+            <p style="font-style: italic;">"Qu'est-ce que la Méditerranée ? Mille choses à la fois. Non pas un paysage mais d'innombrables paysages. Non pas une mer mais une succession de mers. Non pas une civilisation, mais des civilisations entassées les unes sur les autres. Parce que la Méditerranée est un très vieux carrefour. Depuis des millénaires, tout a conflué vers elle, brouillant, enrichissant son histoire : hommes, bêtes de charge, voitures, marchandises, navires, idées, religions, arts de vivre."</p>
+        </div>
+        
+        <p>L'historiographie contemporaine reconnaît l'existence de "Méditerranées" au pluriel. Les représentations de la Méditerranée diffèrent d'un pays à l'autre en fonction de son histoire propre. L'ouvrage collectif dirigé par Thierry Fabre et Robert Ilbert, "Les représentations de la Méditerranée" (2000), explore ces différentes visions nationales et culturelles de cet espace maritime.</p>
+        
+        <p>Au XXIe siècle, une question fondamentale se pose : la Méditerranée constitue-t-elle un trait d'union ou une frontière ? Cette interrogation prend tout son sens dans le contexte des migrations contemporaines, des tensions géopolitiques et des déséquilibres économiques Nord-Sud qui caractérisent cet espace.</p>
+    </section>
+
+    <section id="contestation">
+        <h2>II. De la contestation des empires aux indépendances</h2>
+        
+        <h3>Des empires vacillants dès la Première Guerre mondiale</h3>
+        
+        <p>Les empires européens vacillent dès la Première Guerre mondiale, car une partie de ce conflit européen se joue dans ces empires. On assiste à un choc des impérialismes, avec des expansions conflictuelles en dehors du continent européen. Paradoxalement, les empires sont à la fois à leur apogée territoriale et commencent à se fragiliser structurellement.</p>
+        
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="info-card-icon">⚔️</div>
+                <div class="info-card-title">Mobilisation coloniale</div>
+                <div class="info-card-content">600 000 soldats et travailleurs coloniaux mobilisés pendant WWI. Contact direct avec métropoles, fragilité européenne révélée.</div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">💔</div>
+                <div class="info-card-title">Déception profonde</div>
+                <div class="info-card-content">Droit des peuples à disposer d'eux-mêmes (Wilson 1918) ne s'applique pas aux colonies. Sentiment de trahison.</div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">🔴</div>
+                <div class="info-card-title">Révolution russe (1917)</div>
+                <div class="info-card-content">Idées révolutionnaires anticoloniales se diffusent dans territoires colonisés. Nouvelle contestation de la légitimité coloniale.</div>
+            </div>
+        </div>
+        
+        <p>L'exploitation économique des colonies s'intensifie pour soutenir l'effort de guerre et la reconstruction. Parallèlement, la Révolution russe de 1917 et les idées révolutionnaires qu'elle véhicule contre la colonisation se diffusent dans les territoires colonisés. La puissance de l'Europe est désormais contestée par les grandes puissances américaine et soviétique, qui remettent en question la légitimité du système colonial.</p>
+
+        <h3>Développement d'une conscience politique : le réveil des colonisés</h3>
+        
+        <p>Ce contexte favorise un moment de réveil de conscience politique dans les territoires colonisés, particulièrement pour ceux qui ont été au contact direct des métropoles ou qui ont combattu en Europe. Les soldats coloniaux revenus du front ont vu la fragilité des métropoles et aspirent à une reconnaissance qui ne viendra pas.</p>
+        
+        <p><strong>En Asie :</strong> En Inde, Gandhi multiplie les campagnes non-violentes à partir des années 1920, développant sa philosophie de la résistance passive et de la désobéissance civile. En Indonésie, l'ingénieur Soekarno crée en 1927 le Parti national indonésien. Au Vietnam, Hô Chi Minh mobilise les sentiments patriotiques et crée en 1930 le Parti communiste indochinois, commençant une lutte coloniale d'inspiration marxiste qui se poursuivra pendant des décennies.</p>
+        
+        <p><strong>En Afrique :</strong> Au Maroc, la révolte d'Abd el-Krim en 1925-1926 dans le Rif en appelle à une union des peuples musulmans contre la tutelle européenne. Cette guerre du Rif se transforme en guérilla qui mobilise conjointement les forces françaises et espagnoles pour la réprimer. En Tunisie, des revendications d'indépendance s'expriment avec le parti Néo-Destour dirigé par Habib Bourguiba, fondé en 1934.</p>
+
+        <h3>Les congrès panafricains : espaces de dialogue et de revendications</h3>
+        
+        <p>Les mouvements anticoloniaux restent minoritaires et disparates, mais les premiers congrès panafricains créent des lieux d'échanges intellectuels sur la colonisation et constituent des espaces de dialogue et de revendications indépendantistes. La première conférence panafricaine se tient à Londres en 1900, réunissant des délégués de l'Empire britannique. Entre 1919 et 1945, des conférences panafricaines régulières se tiennent, réclamant l'indépendance du continent africain. Le cinquième congrès panafricain à Manchester en 1945 marque un tournant décisif.</p>
+        
+        <p>Malgré ces contestations naissantes, cela impacte assez peu les métropoles qui persistent dans leur politique coloniale. C'est avec la Seconde Guerre mondiale que les choses vont véritablement basculer.</p>
+
+        <h3>Les colonies dans la Seconde Guerre mondiale</h3>
+        
+        <p>L'Afrique devient un terrain de combat majeur et un enjeu stratégique pour les puissances en guerre. La conquête de l'Éthiopie par l'Italie fasciste en 1935-1936 marque l'une des dernières expansions territoriales coloniales. La restauration d'une Éthiopie indépendante après la défaite italienne en 1941 symbolise le début d'une nouvelle ère et constitue l'un des premiers mouvements de décolonisation liés à la Seconde Guerre mondiale.</p>
+        
+        <div class="highlight-box">
+            <h4>Perte de prestige des puissances coloniales</h4>
+            <p>Les puissances coloniales se retrouvent en difficulté dans leurs colonies car les défaites de 1940 ont entamé leur prestige et leur aura d'invincibilité. Cette perte de prestige est considérable : la mise en lumière des fragilités de ces métropoles, fragilisées par les attaques des puissances de l'Axe et parfois occupées par d'autres puissances européennes, détruit le mythe de leur supériorité.</p>
+        </div>
+        
+        <p>Les Allemands mènent une propagande active contre les puissances coloniales, affirmant qu'il ne faut pas se rallier à la France libre car cela signifierait le retour de l'emprise coloniale. D'un autre côté, la propagande du Royaume-Uni et des Américains diffuse un message d'un monde libre, appelant à se libérer du joug nazi et à lutter contre l'oppression et la domination.</p>
+        
+        <p>Cette situation crée un paradoxe pour les colonisés : d'un côté, on leur demande de lutter contre l'oppression et la domination de la puissance nazie, de l'autre, ils subissent eux-mêmes l'oppression et la domination des puissances coloniales. Ces discours contradictoires alimentent les aspirations à la liberté et à l'émancipation. Les colonies servent également de base arrière pour les mouvements de résistance, notamment pour la France libre.</p>
+
+        <h3>Une décolonisation rapide après 1945</h3>
+        
+        <p>L'accélération de la décolonisation après 1945 résulte de multiples facteurs convergents. Elle est le fruit de révolutions, de guerres et de guérillas internes alimentées par les discours émancipateurs, mais aussi par un contexte plus favorable.</p>
+        
+        <div class="schema-box">
+            <h3 class="schema-title">⚡ Facteurs d'accélération de la décolonisation</h3>
+            <div class="schema-grid">
+                <div class="schema-item">
+                    <div class="schema-item-title">🗣️ Critique en métropole</div>
+                    <div class="schema-item-content">Mythe colonial mis à mal. Mouvement anticolonialiste (Sartre, intellectuels) dénonce violence coloniale.</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">💥 Affaiblissement métropoles</div>
+                    <div class="schema-item-content">Destructions WWII, pénuries, difficultés économiques. Sous tutelle américaine ou soviétique.</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">🌐 Grandes puissances</div>
+                    <div class="schema-item-content">USA et URSS soutiennent décolonisation (anticolonialisme idéologique, intérêts économiques).</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">⚔️ Lutte armée</div>
+                    <div class="schema-item-content">Lutte anticoloniale s'accentue. Recours croissant à la lutte armée. Coût humain et économique insupportable.</div>
+                </div>
+            </div>
+        </div>
+
+        <h3>La fin des mandats européens au Proche-Orient</h3>
+        
+        <p>C'est d'abord au Proche-Orient que les mandats sur ces territoires prennent fin. La Ligue arabe est créée en 1945 par 6 États (Égypte, Arabie saoudite, Irak, Jordanie, Liban et Syrie) et demande immédiatement l'indépendance de la Palestine.</p>
+        
+        <p>Un plan de partage de la Palestine est adopté le 29 novembre 1947 par les Nations Unies. Ce plan prévoit trois entités : un État juif, un État arabe, ainsi que Jérusalem comme ville internationale placée sous contrôle de l'ONU.</p>
+        
+        <p>Le 14 mai 1948, David Ben Gourion proclame la naissance de l'État d'Israël. Le lendemain, les armées arabes pénètrent en Palestine, déclenchant la première guerre israélo-arabe qui dure de mai 1948 à janvier 1949. Le résultat sera favorable à Israël qui étend ses frontières au-delà de ce que prévoyait le plan de partage. Cette guerre crée également le problème des réfugiés palestiniens qui perdure jusqu'aujourd'hui.</p>
+
+        <h3>Les indépendances africaines après-guerre</h3>
+        
+        <p><strong>Les décolonisations italiennes et britanniques :</strong> La fin de la présence italienne en Afrique du Nord intervient rapidement après la Seconde Guerre mondiale. L'indépendance de la Libye devient effective en 1951. La Somalie est placée sous mandat de l'ONU jusqu'en 1960.</p>
+        
+        <p>Les indépendances négociées et échelonnées des colonies britanniques en Afrique suivent un calendrier relativement progressif. Le Ghana obtient son indépendance en 1957, devenant le premier pays d'Afrique subsaharienne à accéder à la souveraineté. Suivent le Nigéria en 1960, la Sierra Leone et la Tanzanie en 1961. Cette transition relativement pacifique dans certains territoires contraste avec la violence de la répression de la révolte des Mau-Mau au Kenya de 1952 à 1960. Ce mouvement de résistance armée contre les fermiers blancs et l'administration coloniale est brutalement réprimé, mais le Kenya finit par obtenir son indépendance en 1963.</p>
+        
+        <p>Le Commonwealth évolue pour accompagner ces indépendances. Cette organisation devient une plateforme d'échanges avec la couronne britannique comme figure d'unité, permettant de maintenir la prédominance du Royaume-Uni dans l'organisation tout en accordant formellement l'indépendance. C'est une façon de maintenir des liens par d'autres formes moins directes que la soumission territoriale.</p>
+        
+        <p>Cependant, le régime d'Apartheid s'installe en Afrique du Sud, système de ségrégation raciale institutionnalisée qui perdurera jusqu'aux années 1990. La Rhodésie (actuel Zimbabwe) proclame unilatéralement son indépendance en 1965 sous un régime de minorité blanche qui ne sera pas reconnu internationalement.</p>
+
+        <h3>Les indépendances dans le cadre français : hésitations et violences</h3>
+        
+        <p>Les hésitations de la République française et des gouvernements qui se succèdent vont rendre les indépendances plus difficiles et plus violentes que dans le cas britannique. Pour la France, ces colonies sont considérées comme les derniers vestiges de sa puissance internationale, et leur perte est perçue comme une perte irrémédiable de puissance sur la scène mondiale.</p>
+        
+        <p>L'indépendance des protectorats tunisien et marocain intervient en 1956. Ces territoires, qui avaient conservé théoriquement leurs structures étatiques sous protectorat français, négocient leur indépendance dans un processus relativement pacifique.</p>
+        
+        <h4>Le cas de l'Algérie : une guerre d'indépendance</h4>
+        
+        <div class="highlight-box">
+            <p>L'Algérie constitue un cas radicalement différent. Elle n'est pas une colonie ou un protectorat mais est constituée de départements français depuis 1848. Cette différence dans les formes de colonisation va donner lieu à une décolonisation beaucoup plus violente et traumatisante.</p>
+        </div>
+        
+        <p>Une très forte immigration française s'est installée en Algérie depuis le XIXe siècle, créant une population de "pieds-noirs" qui considère l'Algérie comme sa patrie. L'Algérie est considérée comme un prolongement territorial de la France métropolitaine, ce qui rend la question de l'indépendance extrêmement sensible politiquement.</p>
+        
+        <p>La guerre d'indépendance algérienne débute en novembre 1954 avec le déclenchement de l'insurrection par le FLN (Front de Libération Nationale). La France s'enlise dans ce conflit qui divise profondément la société française jusqu'à la signature des accords d'Évian en mars 1962. Cette guerre fera des centaines de milliers de morts et provoquera l'exode massif des Européens d'Algérie et de nombreux Algériens ayant collaboré avec la France (les harkis).</p>
+
+        <h4>L'Afrique subsaharienne française</h4>
+        
+        <p>En Afrique subsaharienne, l'indépendance est relativement plus pacifiée, intervenant à un moment où les mouvements indépendantistes ne sont plus à négocier mais exigent l'indépendance totale. Le général de Gaulle propose en 1958 une Communauté française qui succède à l'Union française, offrant une autonomie accrue tout en maintenant des liens avec la France.</p>
+        
+        <p>Douze États naissent au début des années 1960 de l'AOF (Afrique Occidentale Française) et de l'AEF (Afrique Équatoriale Française). En 1960, appelée "l'année de l'Afrique", seize colonies africaines françaises accèdent à l'indépendance. Ce processus d'indépendance, bien que moins violent qu'en Algérie, n'en demeure pas moins marqué par le maintien d'une forte influence française à travers des accords de coopération et la présence militaire française.</p>
+
+        <h3>Des leaders indépendantistes</h3>
+        
+        <h4>Les figures masculines de l'indépendance</h4>
+        
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="info-card-icon">🇬🇭</div>
+                <div class="info-card-title">Kwame Nkrumah (1909-1972)</div>
+                <div class="info-card-content">Incarne le mouvement panafricaniste et l'indépendance du Ghana. Premier ministre en 1952, son pays devient indépendant en 1957. Ardent défenseur de l'unité africaine.</div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">🇨🇩</div>
+                <div class="info-card-title">Patrice Lumumba</div>
+                <div class="info-card-content">Fonde le Mouvement national congolais, devient premier ministre du Congo en 1960. Son assassinat en 1961 symbolise les difficultés de construction des nouveaux États.</div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">🇸🇳</div>
+                <div class="info-card-title">Léopold Sédar Senghor (1906-2001)</div>
+                <div class="info-card-content">Intellectuel, poète et homme politique. Premier président du Sénégal (1960). Théoricien de la négritude. Favorise la négociation plutôt que le conflit.</div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">🇰🇪</div>
+                <div class="info-card-title">Jomo Kenyatta (1894-1978)</div>
+                <div class="info-card-content">Leader indépendantiste kényan. Emprisonné durant la révolte des Mau-Mau. Devient Premier ministre (1963-1964) puis président (1964-1978).</div>
+            </div>
+        </div>
+
+        <h4>Sans oublier les femmes qui se battent pour l'émancipation</h4>
+        
+        <p>Les femmes jouent un rôle crucial dans les luttes anticoloniales, à la croisée des combats féministes et indépendantistes, bien que leur action soit souvent moins mise en avant.</p>
+        
+        <div class="schema-box">
+            <h3 class="schema-title">👩 Figures féminines de la lutte anticoloniale</h3>
+            <div class="schema-grid">
+                <div class="schema-item">
+                    <div class="schema-item-title">🇹🇳 Radhia Haddad (1922-2003)</div>
+                    <div class="schema-item-content">Militante tunisienne membre du parti Néo-Destour. Combat pour l'indépendance de la Tunisie et pour les droits des femmes, liant intimement les deux luttes.</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">🇳🇬 Funmilayo Ransome-Kuti (1900-1978)</div>
+                    <div class="schema-item-content">Militante nigériane pour les droits des femmes et l'émancipation par l'éducation. Crée des organisations féminines et participe au mouvement indépendantiste.</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">🇲🇱 Aoua Keita (1912-1980)</div>
+                    <div class="schema-item-content">Sage-femme malienne, militante anticolonialiste et syndicaliste. Fonde le syndicat des femmes travailleuses à Bamako (1956). Participe au Congrès fondateur de l'Union des femmes de l'Ouest africain (1959).</div>
+                </div>
+            </div>
+        </div>
+        
+        <p>Ces femmes démontrent que la lutte pour l'indépendance et la lutte pour l'égalité des sexes sont indissociables.</p>
+
+        <h3>Des décolonisations plus tardives</h3>
+        
+        <p>Toutes les décolonisations ne se produisent pas dans les années 1960. L'Empire portugais, dirigé par la dictature de Salazar puis de Caetano, résiste plus longtemps au mouvement d'indépendance. Les colonies portugaises (Angola, Mozambique, Cap-Vert, Guinée-Bissau) ne se libèrent que dans les années 1970, après de longues guerres de libération. L'indépendance de l'Angola intervient en 1975, déclenchant immédiatement une guerre civile qui durera jusqu'en 2002.</p>
+        
+        <p>La Namibie constitue un cas particulier avec un conflit prolongé entre l'Afrique du Sud, qui occupait le territoire, et la communauté internationale. Le pays n'obtient son indépendance qu'en 1990, devenant l'un des derniers territoires africains à accéder à la souveraineté.</p>
+    </section>
+
+    <section id="consequences">
+        <h2>III. Les conséquences durables de la (dé)colonisation</h2>
+        
+        <h3>Instabilité politique et conflits</h3>
+        
+        <p>La décolonisation laisse des traces profondes et durables. L'instabilité des frontières nées de la colonisation constitue l'un des héritages les plus problématiques. Ces frontières, tracées par les puissances coloniales souvent au mépris des réalités ethniques, linguistiques et culturelles, créent des tensions persistantes. Les populations se retrouvent divisées entre plusieurs États, tandis que des groupes historiquement antagonistes sont regroupés au sein des mêmes frontières.</p>
+        
+        <p>Ces tensions ethniques artificiellement créées ou exacerbées par la colonisation engendrent de nombreux conflits directement liés aux conséquences de la présence coloniale. La désorganisation des systèmes de production traditionnels fragilise les économies locales et compromet le développement autonome des nouveaux États.</p>
+
+        <h3>Déséquilibres économiques Nord-Sud</h3>
+        
+        <p>Les déséquilibres économiques Nord-Sud constituent un autre héritage majeur de la colonisation. Les économies et infrastructures coloniales ont été conçues pour l'exploitation et l'extraction des ressources au profit des métropoles, non pour le développement équilibré des territoires. Les nouvelles nations indépendantes héritent de structures économiques déformées, dépendantes de l'exportation de matières premières et privées d'industries de transformation.</p>
+        
+        <p>Les infrastructures construites pendant la période coloniale servaient principalement à l'exploitation : routes et voies ferrées reliant les zones de production aux ports d'exportation, sans créer de réseaux intégrés favorisant le développement intérieur.</p>
+
+        <h3>Relations post-coloniales et néocolonialisme</h3>
+        
+        <p>Les relations post-coloniales après les indépendances sont marquées par la persistance de l'influence des anciennes métropoles. Le concept de "Françafrique" illustre particulièrement ces relations ambiguës entre la France et ses anciennes colonies africaines, caractérisées par des accords de coopération, une présence militaire française, une zone monétaire commune (le franc CFA), et des réseaux d'influence politique et économique.</p>
+        
+        <p>De nombreux acteurs ont continué à poursuivre des politiques néocoloniales en Afrique, maintenant une forme de domination économique et politique sans occupation territoriale directe. Ces pratiques perpétuent des relations inégales entre anciennes métropoles et anciennes colonies.</p>
+
+        <h3>Traumatismes collectifs et enjeux de mémoire</h3>
+        
+        <p>Les conséquences mémorielles et culturelles de la colonisation restent vives des deux côtés. Les traumatismes collectifs liés à la violence coloniale, aux guerres d'indépendance et aux massacres perdurent dans les mémoires. Les enjeux de mémoire collective divisent encore les sociétés, tant dans les anciennes métropoles que dans les anciennes colonies.</p>
+        
+        <div class="highlight-box">
+            <h4>Dans les sociétés colonisatrices</h4>
+            <p>La difficulté à reconnaître les aspects les plus sombres de la colonisation alimente des débats historiographiques et politiques qui restent d'actualité. La question de la reconnaissance des crimes coloniaux, des excuses officielles et des éventuelles réparations divise profondément l'opinion publique. En France notamment, les débats autour de la loi de 2005 sur le "rôle positif" de la colonisation ou autour de la guerre d'Algérie illustrent la persistance de ces tensions mémorielles.</p>
+        </div>
+        
+        <p>Dans les anciennes colonies, la construction d'une mémoire nationale post-coloniale doit composer avec l'héritage complexe de la période coloniale. Certains États valorisent la mémoire de la résistance anticoloniale comme fondement de l'identité nationale, tandis que d'autres peinent à établir un récit unifié dans des sociétés artificiellement créées par les frontières coloniales.</p>
+
+        <h3>Héritages linguistiques et culturels</h3>
+        
+        <p>L'héritage linguistique constitue un aspect paradoxal de la colonisation. Les langues des colonisateurs sont devenues des langues officielles ou véhiculaires dans de nombreux États africains, facilitant l'unité nationale dans des pays multilingues mais contribuant aussi à la marginalisation des langues locales. Le français, l'anglais et le portugais restent des langues de l'administration, de l'enseignement et des élites dans leurs anciennes colonies respectives.</p>
+        
+        <p>Cette situation crée des débats sur l'identité culturelle et la place des langues africaines. Certains intellectuels, comme Ngũgĩ wa Thiong'o, plaident pour une décolonisation culturelle passant par la valorisation des langues africaines, tandis que d'autres soulignent l'utilité pratique des langues européennes pour l'unité nationale et les échanges internationaux.</p>
+        
+        <p>Les systèmes éducatifs hérités de la colonisation perpétuent souvent des modèles importés, parfois inadaptés aux réalités locales. L'aliénation culturelle dénoncée par Frantz Fanon dans <em>Les Damnés de la terre</em> (1961) reste une question actuelle dans le débat sur la décolonisation des savoirs et des curricula.</p>
+
+        <h3>Les défis du développement</h3>
+        
+        <p>Les nouveaux États indépendants ont dû faire face à d'immenses défis de développement. L'absence de cadres formés, de structures administratives autonomes et de bourgeoisies nationales solides a compliqué la construction étatique post-coloniale. Beaucoup de pays se sont retrouvés pris dans le piège de la dépendance économique vis-à-vis de leurs anciennes métropoles ou d'autres puissances.</p>
+        
+        <p>Les stratégies de développement ont varié selon les pays : socialisme africain (ujamaa de Nyerere en Tanzanie), capitalisme d'État, alignement sur l'un ou l'autre bloc pendant la Guerre froide. Les résultats ont été inégaux, avec des réussites relatives (Botswana, Maurice) et de nombreux échecs marqués par l'instabilité politique, les coups d'État militaires et les dictatures.</p>
+        
+        <p>La dette extérieure, contractée souvent dès les indépendances pour financer le développement, est devenue un fardeau considérable pour de nombreux pays africains, perpétuant les rapports de dépendance économique dans un système parfois qualifié de néocolonial.</p>
+    </section>
+
+    <section id="migrations-coloniales">
+        <h2>IV. Migrations et diasporas : un héritage colonial</h2>
+        
+        <p>Les mouvements migratoires constituent l'un des héritages les plus visibles et les plus durables de la colonisation. Les flux migratoires entre l'Europe et l'Afrique s'inscrivent dans des réseaux établis pendant la période coloniale et dans les relations économiques post-coloniales qui en découlent.</p>
+
+        <h3>A. Les migrations coloniales : de la métropole vers les colonies</h3>
+        
+        <h4>L'émigration européenne vers les colonies (XIXe-XXe siècle)</h4>
+        
+        <p>Les empires coloniaux encouragent l'émigration de populations européennes vers les territoires colonisés. Ces migrations répondent à plusieurs objectifs : peupler les colonies, établir une présence européenne permanente, exploiter les ressources et affirmer la domination coloniale.</p>
+        
+        <div class="highlight-box">
+            <h4>L'Algérie : le cas emblématique</h4>
+            <p>L'Algérie constitue le cas le plus emblématique avec l'installation massive de colons européens dès 1830. En 1962, environ <strong>1 million de pieds-noirs</strong> (Européens d'Algérie) vivent sur ce territoire considéré comme départements français. Cette population se compose de Français, mais aussi d'Italiens, d'Espagnols et de Maltais installés au fil des générations.</p>
+        </div>
+        
+        <p>En Afrique du Sud, la colonisation britannique puis le régime d'Apartheid (1948-1994) organisent une ségrégation spatiale stricte entre populations blanches et noires, créant des migrations forcées internes.</p>
+
+        <h4>Les migrations de travail au sein des empires coloniaux</h4>
+        
+        <p>Les puissances coloniales organisent des <strong>migrations de travail forcé ou encouragé</strong> au sein de leurs empires. Des travailleurs sont déplacés d'une colonie à l'autre pour répondre aux besoins économiques de l'empire.</p>
+        
+        <div class="schema-box">
+            <h3 class="schema-title">🚂 Migrations de travail dans les empires coloniaux</h3>
+            <div class="schema-grid">
+                <div class="schema-item">
+                    <div class="schema-item-title">Empire britannique</div>
+                    <div class="schema-item-content">Travailleurs indiens déplacés vers Afrique de l'Est (Kenya, Ouganda, Tanzanie) pour construire infrastructures, notamment le chemin de fer. Création de communautés indo-africaines durables.</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">Empire français</div>
+                    <div class="schema-item-content">Recrutement de travailleurs maghrébins pour l'effort de guerre (WWI et WWII) et besoins de main-d'œuvre en métropole. Environ 600 000 travailleurs et soldats coloniaux mobilisés durant WWI. Premiers réseaux migratoires vers la France.</div>
+                </div>
+            </div>
+        </div>
+
+        <h3>B. Les migrations économiques post-coloniales vers les anciennes métropoles</h3>
+        
+        <h4>Les Trente Glorieuses et l'immigration de travail (1945-1973)</h4>
+        
+        <p>Après 1945, les anciennes métropoles européennes connaissent une période de forte croissance économique nécessitant une main-d'œuvre abondante. Les anciennes colonies constituent un réservoir de travailleurs privilégié en raison des liens historiques, linguistiques et administratifs établis pendant la colonisation.</p>
+        
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="info-card-icon">🇫🇷</div>
+                <div class="info-card-title">En France</div>
+                <div class="info-card-content">
+                    La reconstruction puis les Trente Glorieuses créent d'importants besoins de main-d'œuvre. Recrutement massif dans anciennes colonies :<br><br>
+                    <strong>Immigration maghrébine :</strong> Algériens, Marocains, Tunisiens dans l'industrie automobile, le bâtiment, les mines<br>
+                    <strong>Immigration subsaharienne :</strong> dès les années 1960, travailleurs maliens, sénégalais, etc.<br><br>
+                    En région PACA : population maghrébine passe de quelques milliers (1946) à plusieurs centaines de milliers (années 1980).
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">🇬🇧</div>
+                <div class="info-card-title">Au Royaume-Uni</div>
+                <div class="info-card-content">
+                    Immigration post-coloniale transforme la société britannique. Citoyens du Commonwealth bénéficient d'un droit d'entrée facilité :<br><br>
+                    <strong>Windrush Generation (1948-1971) :</strong> Antillais britanniques (Jamaïque, Trinidad, Barbade)<br>
+                    <strong>Immigration indienne et pakistanaise :</strong> après indépendance de 1947<br>
+                    <strong>Immigration est-africaine :</strong> Ougandais d'origine indienne expulsés par Idi Amin (1972)
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">🇵🇹</div>
+                <div class="info-card-title">Au Portugal</div>
+                <div class="info-card-content">
+                    Après les indépendances de 1975 (Angola, Mozambique), environ <strong>500 000 retornados</strong> (Portugais d'Afrique) rentrent au Portugal. À partir des années 1990, flux s'inverse : Angolais, Mozambicains immigrent au Portugal pour raisons économiques.<br><br>
+                    <strong>Au Luxembourg :</strong> En 2021, les Portugais représentent 14,5% de la population (93 659 personnes).
+                </div>
+            </div>
+        </div>
+
+        <h4>La fin des Trente Glorieuses et les politiques restrictives (après 1973)</h4>
+        
+        <p>Le choc pétrolier de 1973 et la fin du plein emploi marquent un tournant. Les pays européens adoptent des <strong>politiques d'immigration de plus en plus restrictives</strong> :</p>
+        
+        <ul>
+            <li><strong>France :</strong> suspension officielle de l'immigration de travail (1974)</li>
+            <li><strong>Royaume-Uni :</strong> Immigration Act (1971) restreint l'entrée des ressortissants du Commonwealth</li>
+            <li>Distinction croissante entre Européens et non-Européens dans les politiques migratoires</li>
+        </ul>
+        
+        <p>Paradoxalement, ces restrictions entraînent un effet inverse : les travailleurs immigrés, craignant de ne plus pouvoir revenir, s'installent définitivement et font venir leurs familles (<strong>regroupement familial</strong> années 1970-80).</p>
+
+        <h3>C. Les diasporas post-coloniales et leurs spécificités</h3>
+        
+        <h4>Des communautés structurées par l'histoire coloniale</h4>
+        
+        <p>Les diasporas issues des anciennes colonies se distinguent par des caractéristiques liées à l'histoire coloniale :</p>
+        
+        <div class="schema-box">
+            <h3 class="schema-title">🌍 Caractéristiques des diasporas post-coloniales</h3>
+            <div class="schema-grid">
+                <div class="schema-item">
+                    <div class="schema-item-title">🗣️ Langue commune</div>
+                    <div class="schema-item-content">Avec l'ancienne métropole (français, anglais, portugais)</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">📋 Systèmes familiers</div>
+                    <div class="schema-item-content">Systèmes administratifs familiers (héritage colonial)</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">🔗 Réseaux préexistants</div>
+                    <div class="schema-item-content">Réseaux établis pendant la colonisation</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">✈️ Facilités administratives</div>
+                    <div class="schema-item-content">Nationalité, visas héritées de la période coloniale</div>
+                </div>
+            </div>
+        </div>
+
+        <h4>La diaspora maghrébine en France</h4>
+        
+        <p>En 2023, environ <strong>6 millions de personnes</strong> en France ont des origines maghrébines (nés au Maghreb ou descendants). Cette diaspora structure durablement la société française :</p>
+        
+        <ul>
+            <li>Concentration géographique (Île-de-France, PACA, région lyonnaise)</li>
+            <li>Enjeux d'intégration et de discriminations persistantes</li>
+            <li>Doubles appartenances culturelles</li>
+            <li>Liens maintenus avec pays d'origine (envois de fonds, retours vacances)</li>
+        </ul>
+
+        <h4>La diaspora caribéenne au Royaume-Uni</h4>
+        
+        <p>Les Antillais britanniques (environ <strong>1 million de personnes</strong>) constituent une communauté visible :</p>
+        
+        <ul>
+            <li>Arrivée massive entre 1948-1971 (Windrush Generation)</li>
+            <li>Scandale Windrush (2018) : des Britanniques d'origine caribéenne menacés d'expulsion malgré des décennies de résidence</li>
+            <li>Contributions culturelles majeures (musique, sport, politique)</li>
+        </ul>
+
+        <h3>D. Les rapatriements forcés et les populations abandonnées</h3>
+        
+        <h4>L'exode des pieds-noirs d'Algérie (1962)</h4>
+        
+        <p>L'indépendance de l'Algérie provoque un exode massif et brutal :</p>
+        
+        <div class="highlight-box">
+            <h4>Été 1962 : un exode dramatique</h4>
+            <ul>
+                <li>Environ <strong>1 million de personnes</strong> (pieds-noirs et juifs d'Algérie) fuient vers la France</li>
+                <li>Départ précipité, biens abandonnés, traumatisme collectif</li>
+                <li>Installation principalement dans le Sud de la France (Marseille, Montpellier, Toulouse)</li>
+                <li>Constitution d'une communauté organisée avec mémoire revendicative forte</li>
+                <li>Tensions mémorielles persistantes avec les populations d'origine algérienne</li>
+            </ul>
+        </div>
+
+        <h4>Le drame des harkis</h4>
+        
+        <p>Les harkis (Algériens ayant combattu avec l'armée française) subissent un sort tragique :</p>
+        
+        <ul>
+            <li>Environ <strong>90 000 harkis</strong> et leurs familles réfugiés en France (beaucoup d'autres massacrés en Algérie)</li>
+            <li>Internement dans des camps en France (Rivesaltes, Bias, etc.)</li>
+            <li>Conditions de vie difficiles, stigmatisation</li>
+            <li>Intégration problématique, descendants toujours en quête de reconnaissance</li>
+            <li>Loi de 2022 reconnaissant la responsabilité de la France dans l'abandon des harkis</li>
+        </ul>
+
+        <h4>Les retornados portugais (1975)</h4>
+        
+        <p>Après les indépendances de l'Angola et du Mozambique :</p>
+        
+        <ul>
+            <li><strong>500 000 Portugais d'Afrique</strong> rentrent précipitamment au Portugal</li>
+            <li>Guerre civile en Angola chasse les populations européennes</li>
+            <li>Difficultés d'insertion dans un Portugal pauvre et instable</li>
+            <li>Traumatisme de l'exil, nostalgie de l'Afrique</li>
+        </ul>
+
+        <h3>E. Les migrations contemporaines et les routes méditerranéennes</h3>
+        
+        <h4>La Méditerranée : de trait d'union colonial à frontière migratoire mortelle</h4>
+        
+        <p>La mer Méditerranée, qui reliait les empires coloniaux européens à l'Afrique, est devenue au XXIe siècle une <strong>frontière dangereuse</strong> pour les migrants.</p>
+        
+        <div class="schema-box">
+            <h3 class="schema-title">🌊 Les principales routes migratoires méditerranéennes (2015-2024)</h3>
+            <div class="schema-grid">
+                <div class="schema-item">
+                    <div class="schema-item-title">Route Méditerranée centrale 🔴</div>
+                    <div class="schema-item-content"><strong>La plus meurtrière</strong><br>Libye → Italie (Lampedusa, Sicile)<br>Environ 20 000 morts depuis 2014<br>Origine migrants : Afrique subsaharienne, Érythrée, Soudan</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">Route Méditerranée occidentale 🟡</div>
+                    <div class="schema-item-content">Maroc → Espagne (détroit Gibraltar, Canaries)<br>Augmentation flux après fermeture route centrale<br>Enclaves Ceuta et Melilla = points de tension</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">Route Méditerranée orientale 🔵</div>
+                    <div class="schema-item-content">Turquie → Grèce (îles, Lesbos)<br>Syriens, Afghans, Irakiens fuyant guerres<br>Pic en 2015 (1 million d'arrivées)</div>
+                </div>
+            </div>
+        </div>
+
+        <h4>Les causes des migrations contemporaines : un héritage colonial complexe</h4>
+        
+        <p>Les migrations actuelles vers l'Europe ne peuvent se comprendre sans prendre en compte l'héritage de la colonisation :</p>
+        
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="info-card-icon">💰</div>
+                <div class="info-card-title">Facteurs économiques</div>
+                <div class="info-card-content">
+                    <strong>Sous-développement économique :</strong> économies africaines restées dépendantes de l'exportation de matières premières<br>
+                    <strong>Déséquilibres Nord-Sud :</strong> écart de richesse creusé<br>
+                    <strong>Chômage massif :</strong> notamment des jeunes (60% de la population africaine a moins de 25 ans)<br>
+                    <strong>Réseaux hérités :</strong> linguistiques et culturels facilitent migrations
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">⚔️</div>
+                <div class="info-card-title">Facteurs politiques post-coloniaux</div>
+                <div class="info-card-content">
+                    <strong>Instabilité politique :</strong> coups d'État, dictatures, guerres civiles liées aux frontières arbitraires coloniales<br>
+                    <strong>Conflits armés :</strong> Mali, Somalie, Soudan, RDC (liés aux ressources et frontières héritées)<br>
+                    <strong>Répression politique :</strong> Érythrée (service militaire à vie), Soudan (guerre civile depuis 2023)
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">🌡️</div>
+                <div class="info-card-title">Nouveaux facteurs du XXIe siècle</div>
+                <div class="info-card-content">
+                    <strong>Changement climatique :</strong> désertification Sahel, sécheresses, insécurité alimentaire<br>
+                    <strong>Croissance démographique :</strong> population Afrique subsaharienne devrait doubler d'ici 2050<br>
+                    <strong>Connexion numérique :</strong> réseaux sociaux montrent mode de vie européen, alimentent aspirations
+                </div>
+            </div>
+        </div>
+
+        <h3>F. Les politiques migratoires européennes restrictives et leurs conséquences</h3>
+        
+        <h4>Le renforcement de l'espace intérieur européen (depuis 1990)</h4>
+        
+        <div class="highlight-box">
+            <h4>Espace Schengen (1985-1995)</h4>
+            <p>Création d'un espace de libre circulation SANS contrôles aux frontières entre pays européens signataires. Conséquence : les frontières extérieures de l'UE deviennent des <strong>barrières renforcées</strong> pour les non-Européens.</p>
+        </div>
+        
+        <p><strong>Agence Frontex (2004) :</strong> Créée pour surveiller et protéger les frontières extérieures de l'UE. Budget et pouvoirs considérablement renforcés dans les années 2010-2020. Critiquée pour refoulements illégaux (pushbacks) en Méditerranée.</p>
+
+        <h4>Le Pacte sur la migration et l'asile de l'UE (2024)</h4>
+        
+        <p>Après des années de négociations, l'UE adopte un nouveau pacte migratoire :</p>
+        
+        <div class="schema-box">
+            <h3 class="schema-title">🇪🇺 Deux visions du Pacte migratoire</h3>
+            <div class="schema-grid">
+                <div class="schema-item">
+                    <div class="schema-item-title">Selon la Commission européenne ✅</div>
+                    <div class="schema-item-content">
+                        • Procédures d'asile accélérées<br>
+                        • Répartition solidaire des demandeurs entre États membres<br>
+                        • Contrôles renforcés aux frontières
+                    </div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">Selon les ONG (La Cimade) ❌</div>
+                    <div class="schema-item-content">
+                        • Procédures expéditives violant droits des réfugiés<br>
+                        • Enfermement généralisé (y compris enfants)<br>
+                        • Externalisation : payer pays tiers pour empêcher départs<br>
+                        • "Forteresse Europe" qui tue en Méditerranée
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4>Instrumentalisation politique des migrations</h4>
+        
+        <div class="highlight-box">
+            <h4>Cas Biélorussie-Pologne (2021)</h4>
+            <p>Le dictateur Loukachenko (Biélorussie) fait venir des migrants (Irakiens, Syriens, Afghans) et les pousse vers la frontière polonaise pour déstabiliser l'UE. La Pologne répond par refoulement violent et construction de mur. Des migrants meurent de froid dans les forêts frontalières.</p>
+            <p><strong>Film à voir :</strong> "Green Border" (2023) d'Agnieszka Holland.</p>
+        </div>
+        
+        <p><strong>USA-Mexique :</strong> Trump construit le "mur" (2017-2021) contre immigration mexicaine/centraméricaine, héritage indirect des interventions US en Amérique latine.</p>
+
+        <h3>G. Les migrations intra-africaines : dimension souvent oubliée</h3>
+        
+        <h4>Migrations Sud-Sud majoritaires</h4>
+        
+        <p>Contrairement aux représentations médiatiques, la majorité des migrants africains <strong>restent en Afrique</strong> :</p>
+        
+        <ul>
+            <li>Environ <strong>80% des migrations africaines</strong> sont intra-africaines</li>
+            <li>Mobilité régionale importante (travail saisonnier, commerce, études)</li>
+        </ul>
+        
+        <p><strong>Migrations économiques intra-africaines :</strong></p>
+        <ul>
+            <li>Afrique de l'Ouest : libre circulation CEDEAO (15 pays) depuis 1979</li>
+            <li>Migrations saisonnières agricoles (Burkina Faso → Côte d'Ivoire pour cacao/café)</li>
+            <li>Migrations vers pays émergents (Ghana, Sénégal, Afrique du Sud)</li>
+        </ul>
+
+        <h4>Transhumance transfrontalière</h4>
+        
+        <p>La <strong>transhumance</strong> (déplacement saisonnier de troupeaux) est une pratique millénaire qui perdure. Les frontières coloniales ont artificiellement coupé les routes de transhumance traditionnelles.</p>
+        
+        <p>En Afrique de l'Ouest, les éleveurs peuls pratiquent la transhumance entre Sahel et zones plus humides. Ils doivent détenir un <strong>certificat international de transhumance</strong> pour traverser les frontières. Tensions croissantes avec agriculteurs sédentaires, aggravées par changement climatique et pression démographique.</p>
+        
+        <p><strong>Migrations forcées intra-africaines :</strong></p>
+        <ul>
+            <li><strong>Conflits :</strong> Soudan du Sud (guerre civile) → réfugiés en Ouganda, Éthiopie</li>
+            <li><strong>RDC :</strong> guerres à l'Est → millions de déplacés internes et réfugiés au Rwanda, Ouganda</li>
+            <li><strong>Lac Tchad :</strong> Boko Haram → déplacements au Niger, Cameroun, Tchad</li>
+        </ul>
+
+        <h3>H. Migrations et changement climatique : l'enjeu du XXIe siècle</h3>
+        
+        <h4>Les réfugiés climatiques : statut inexistant</h4>
+        
+        <p>Le changement climatique provoque déjà des migrations massives, mais le <strong>statut de "réfugié climatique" n'existe pas</strong> dans le droit international. La Convention de Genève (1951) sur les réfugiés ne reconnaît que les persécutions politiques, religieuses, ethniques.</p>
+        
+        <div class="highlight-box">
+            <h4>⚠️ Projections alarmantes</h4>
+            <ul>
+                <li><strong>140 à 200 millions de déplacés climatiques</strong> d'ici 2050 (Banque mondiale)</li>
+                <li>Afrique subsaharienne particulièrement vulnérable (sécheresses, désertification)</li>
+                <li>Petits États insulaires menacés de disparition (montée des eaux)</li>
+            </ul>
+        </div>
+
+        <h4>Cas du Bangladesh</h4>
+        
+        <p>Pays extrêmement vulnérable :</p>
+        <ul>
+            <li><strong>18 millions de personnes</strong> pourraient être déplacées d'ici 2050 à cause de la montée des eaux</li>
+            <li>Delta du Gange régulièrement inondé</li>
+            <li>Migrations déjà massives vers Inde (tensions intercommunautaires)</li>
+        </ul>
+
+        <h4>Tuvalu : un État qui disparaît</h4>
+        
+        <p><strong>Tuvalu</strong> (petit État insulaire Pacifique, 11 000 habitants) est menacé de submersion totale d'ici la fin du siècle. En <strong>août 2024</strong>, l'Australie signe un <strong>traité historique</strong> avec Tuvalu :</p>
+        
+        <ul>
+            <li>Accueil de <strong>280 Tuvaluans par an</strong> en Australie (droit de résidence)</li>
+            <li>Reconnaissance implicite que leur pays va disparaître</li>
+            <li>Premier traité reconnaissant les réfugiés climatiques</li>
+        </ul>
+
+        <h3>I. Catégorisations et statuts des migrants : un enjeu juridique et politique</h3>
+        
+        <h4>Migrant volontaire vs migrant forcé</h4>
+        
+        <div class="schema-box">
+            <h3 class="schema-title">📋 Les différents statuts migratoires</h3>
+            <div class="schema-grid">
+                <div class="schema-item">
+                    <div class="schema-item-title">Migrant économique (volontaire)</div>
+                    <div class="schema-item-content">
+                        Quitte son pays pour améliorer conditions de vie<br>
+                        Pas de protection juridique internationale spécifique<br>
+                        Soumis aux lois d'immigration du pays d'accueil<br>
+                        Peut être reconduit à la frontière s'il est en situation irrégulière
+                    </div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">Demandeur d'asile et réfugié (forcé)</div>
+                    <div class="schema-item-content">
+                        <strong>Convention de Genève (1951) :</strong> personne persécutée pour race, religion, nationalité, opinions politiques, appartenance groupe social<br>
+                        <strong>Demandeur d'asile :</strong> personne qui demande protection (procédure en cours)<br>
+                        <strong>Réfugié :</strong> statut accordé après examen, protections spécifiques (non-refoulement)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4>En France 2023</h4>
+        
+        <ul>
+            <li><strong>142 500 demandes d'asile</strong> déposées</li>
+            <li><strong>35% taux d'acceptation</strong> (49 800 statuts accordés)</li>
+            <li>Principales nationalités : Afghans, Bangladais, Turcs, Ivoiriens, Guinéens</li>
+        </ul>
+
+        <h4>Autres statuts</h4>
+        
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="info-card-icon">👶</div>
+                <div class="info-card-title">Mineurs non accompagnés (MNA)</div>
+                <div class="info-card-content">
+                    Enfants/adolescents migrants arrivés seuls<br>
+                    Protection internationale enfance (Convention 1989)<br>
+                    France : environ 10 000 MNA pris en charge chaque année<br>
+                    Problèmes : détermination âge (contestée), saturation services sociaux
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">🌐</div>
+                <div class="info-card-title">Apatrides</div>
+                <div class="info-card-content">
+                    Personnes sans nationalité reconnue<br>
+                    Environ 10 millions dans le monde (ONU)<br>
+                    Rohingyas (Myanmar/Birmanie) : persécutés, apatrides, 700 000 réfugiés au Bangladesh
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="info-card-icon">📄</div>
+                <div class="info-card-title">Sans-papiers</div>
+                <div class="info-card-content">
+                    Personnes en situation irrégulière (visa expiré, entrée clandestine, déboutés asile)<br>
+                    Vulnérabilité extrême : exploitation travail, pas accès droits sociaux<br>
+                    France : estimation 300 000 à 400 000 sans-papiers<br>
+                    Régularisations exceptionnelles parfois (travailleurs "essentiels" Covid, métiers en tension)
+                </div>
+            </div>
+        </div>
+
+        <h4>Droit du sol vs droit du sang</h4>
+        
+        <ul>
+            <li><strong>Droit du sol :</strong> nationalité par naissance sur territoire (France, UK, USA)</li>
+            <li><strong>Droit du sang :</strong> nationalité par filiation (Allemagne, Italie, pays d'Europe de l'Est)</li>
+            <li>Influence sur intégration des descendants de migrants</li>
+        </ul>
+
+        <h3>J. Migrations et mémoire : le poids du passé colonial</h3>
+        
+        <h4>Les migrations comme révélateur des tensions mémorielles</h4>
+        
+        <p>Les débats sur l'immigration en Europe réactivent constamment les mémoires coloniales :</p>
+        
+        <ul>
+            <li><strong>Racisme et discriminations :</strong> héritages des hiérarchies raciales coloniales</li>
+            <li><strong>Représentations culturelles :</strong> exotisme, infantilisation, altérité radicale</li>
+            <li><strong>Débats identitaires :</strong> "intégration", "communautarisme", "laïcité" (France)</li>
+            <li><strong>Politiques d'assimilation :</strong> rappellent la "mission civilisatrice" coloniale</li>
+        </ul>
+
+        <h4>Le cas français : République et post-colonialisme</h4>
+        
+        <p>Tensions spécifiques en France :</p>
+        
+        <div class="highlight-box">
+            <ul>
+                <li><strong>Modèle républicain</strong> universaliste vs réalités discriminations</li>
+                <li><strong>Débats sur le voile :</strong> religion, laïcité, féminisme, mais aussi héritages coloniaux (Code de l'indigénat)</li>
+                <li><strong>Quartiers populaires :</strong> concentration populations d'origine immigrée, ségrégation spatiale</li>
+                <li><strong>Violences policières :</strong> populations racisées surreprésentées, mémoire répression coloniale</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="conclusion">
+        <h2>Conclusion</h2>
+        
+        <p>La décolonisation africaine, processus majeur du XXe siècle, a profondément transformé la carte politique mondiale et les équilibres géopolitiques. Si elle a permis l'émergence de dizaines d'États souverains et l'affirmation du droit des peuples à disposer d'eux-mêmes, elle reste un processus inachevé dont les conséquences se font sentir jusqu'à aujourd'hui.</p>
+        
+        <p>Les indépendances formelles n'ont pas toujours signifié une véritable émancipation économique et culturelle. Les structures héritées de la colonisation – frontières artificielles, économies extraverties, dépendances multiples – continuent de peser sur le développement du continent africain. Les relations post-coloniales demeurent marquées par des asymétries de pouvoir et des ingérences étrangères, qu'elles soient économiques, politiques ou militaires.</p>
+        
+        <div class="highlight-box">
+            <h4>🌍 Une Afrique en mutation</h4>
+            <p>Pourtant, plus de soixante ans après les grandes vagues d'indépendance, l'Afrique connaît de profondes mutations. Une nouvelle génération, née après les indépendances, revendique une véritable souveraineté et questionne les héritages coloniaux et post-coloniaux. Les mouvements de "décolonisation des esprits", les débats sur la restitution du patrimoine culturel, les revendications pour une refonte des relations économiques (notamment autour du franc CFA) témoignent d'une prise de conscience croissante.</p>
+        </div>
+        
+        <p>Comprendre l'histoire de la colonisation et de la décolonisation reste essentiel pour saisir les enjeux contemporains, tant dans les sociétés africaines qu'européennes. Cette histoire commune, faite de domination mais aussi de résistances, de violences mais aussi de luttes pour l'émancipation, continue de façonner nos sociétés et appelle à une reconnaissance mutuelle des mémoires pour construire des relations plus équitables entre les peuples.</p>
+        
+        <p><strong>La décolonisation n'est pas seulement un événement historique du passé, mais un processus continu qui interroge encore aujourd'hui nos sociétés sur les questions de justice, d'égalité et de reconnaissance dans un monde post-colonial.</strong></p>
+    </section>
+
+    <!-- Ressources complémentaires -->
+    <section id="ressources">
+        <h2>📚 Pour aller plus loin</h2>
+        
+        <div class="schema-box">
+            <h3 class="schema-title">Ouvrages de référence</h3>
+            <div class="schema-grid">
+                <div class="schema-item">
+                    <div class="schema-item-title">Frantz Fanon</div>
+                    <div class="schema-item-content"><em>Les Damnés de la terre</em> (1961) - Analyse fondamentale de la violence coloniale et de la lutte anticoloniale</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">Fernand Braudel</div>
+                    <div class="schema-item-content"><em>La Méditerranée et le monde méditerranéen à l'époque de Philippe II</em> - Approche historique de longue durée</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">Aimé Césaire</div>
+                    <div class="schema-item-content"><em>Discours sur le colonialisme</em> (1950) - Critique radicale du système colonial</div>
+                </div>
+                <div class="schema-item">
+                    <div class="schema-item-title">Achille Mbembe</div>
+                    <div class="schema-item-content"><em>De la postcolonie</em> (2000) - Réflexion sur l'Afrique post-coloniale contemporaine</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="highlight-box" style="margin-top: 2rem;">
+            <h4>🎬 Film recommandé</h4>
+            <p><strong>"Green Border"</strong> (2023) d'Agnieszka Holland - Sur la crise migratoire à la frontière polonaise-biélorusse</p>
+        </div>
+    </section>
+
+</div>
+<script src="{{ url_for('static', filename='js/timeline.js') }}"></script>
+{% endblock %}

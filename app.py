@@ -22,6 +22,12 @@ def index():
             'titre': 'Histoire des migrations internationales contemporaines',
             'description': 'Phénomènes migratoires, causes et évolutions du XIXe au XXIe siècle',
             'url': '/cours/migrations'
+        },
+        {
+            'id': 'afrique-colonisation',
+            'titre': "L'Europe, la Méditerranée et l'Afrique au XXe siècle",
+            'description': 'Colonisation, décolonisation et héritages post-coloniaux',
+            'url': '/cours/afrique-colonisation'
         }
     ]
     return render_template('index.html', cours=cours_list)
@@ -37,6 +43,10 @@ def cours_diplomatie_culturelle():
 @app.route('/cours/migrations')
 def cours_migrations():
     return render_template('cours_migrations.html')
+
+@app.route('/cours/afrique-colonisation')
+def cours_afrique_colonisation():
+    return render_template('cours_afrique.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
