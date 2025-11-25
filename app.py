@@ -28,6 +28,12 @@ def index():
             'titre': "L'Europe, la Méditerranée et l'Afrique au XXe siècle",
             'description': 'Colonisation, décolonisation et héritages post-coloniaux',
             'url': '/cours/afrique-colonisation'
+        },
+        {
+            'id': 'onu-integration',
+            'titre': "L'ONU pendant la Guerre Froide et l'intégration régionale",
+            'description': 'Organisations internationales, régionalisme et accords commerciaux',
+            'url': '/cours/onu-integration'
         }
     ]
     return render_template('index.html', cours=cours_list)
@@ -47,6 +53,10 @@ def cours_migrations():
 @app.route('/cours/afrique-colonisation')
 def cours_afrique_colonisation():
     return render_template('cours_afrique.html')
+
+@app.route('/cours/onu-integration')
+def cours_onu_integration():
+    return render_template('cours_onu.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
