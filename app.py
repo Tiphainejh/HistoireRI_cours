@@ -16,6 +16,12 @@ def index():
             'titre': 'Relations internationales et diplomatie culturelle',
             'description': 'Échanges culturels, soft power et hégémonies culturelles au XXe siècle',
             'url': '/cours/diplomatie-culturelle'
+        },
+        {
+            'id': 'migrations',
+            'titre': 'Histoire des migrations internationales contemporaines',
+            'description': 'Phénomènes migratoires, causes et évolutions du XIXe au XXIe siècle',
+            'url': '/cours/migrations'
         }
     ]
     return render_template('index.html', cours=cours_list)
@@ -28,6 +34,9 @@ def cours_economie():
 def cours_diplomatie_culturelle():
     return render_template('cours_diplomatie_culturelle.html')
 
-# Pour Vercel
+@app.route('/cours/migrations')
+def cours_migrations():
+    return render_template('cours_migrations.html')
+
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
