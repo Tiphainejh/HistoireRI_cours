@@ -34,6 +34,12 @@ def index():
             'titre': "L'ONU pendant la Guerre Froide et l'intégration régionale",
             'description': 'Organisations internationales, régionalisme et accords commerciaux',
             'url': '/cours/onu-integration'
+        },
+        {
+            'id': 'organisations-internationales',
+            'titre': "Histoire des organisations internationales",
+            'description': 'De la SDN à l\'ONU : institutionnalisation des relations internationales',
+            'url': '/cours/organisations-internationales'
         }
     ]
     return render_template('index.html', cours=cours_list)
@@ -57,6 +63,10 @@ def cours_afrique_colonisation():
 @app.route('/cours/onu-integration')
 def cours_onu_integration():
     return render_template('cours_onu.html')
+
+@app.route('/cours/organisations-internationales')
+def cours_organisations_internationales():
+    return render_template('cours_organisations.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
