@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -517,11 +517,11 @@ footer p {
 }
 
 .timeline-event:nth-child(odd) .timeline-date {
-    right: -15%;
+    right: 25%;
 }
 
 .timeline-event:nth-child(even) .timeline-date {
-    left: -15%;
+    left: 25%;
 }
 
 .timeline-event-title {
