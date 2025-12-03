@@ -1,0 +1,1335 @@
+{% extends "base.html" %}
+
+{% block title %}Le sport dans les relations internationales{% endblock %}
+
+{% block content %}
+<div class="cours-content">
+    
+    <h1>Le sport dans les relations internationales</h1>
+
+    <nav class="table-of-contents">
+        <h3>Sommaire</h3>
+        <ul>
+            <li><a href="#intro">Introduction : Internationalisation progressive du sport</a></li>
+            <li><a href="#naissance">La naissance et diffusion des sports modernes</a></li>
+            <li><a href="#structuration">La structuration des sports modernes</a></li>
+            <li><a href="#politisation">La politisation du sport dans l'entre-deux-guerres</a></li>
+            <li><a href="#totalitaires">Les régimes totalitaires et le sport</a></li>
+            <li><a href="#urss">L'Union soviétique et le sport</a></li>
+            <li><a href="#guerre-froide">Sport et Guerre froide</a></li>
+            <li><a href="#tribune">Le sport comme tribune politique</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <!-- Frise chronologique principale -->
+    <div class="timeline-container">
+        <h2 style="text-align: center; color: #667eea; margin-bottom: 3rem; font-size: 2.5rem;">📅 Chronologie du sport international</h2>
+        <div class="timeline">
+            <div class="timeline-event">
+                <div class="timeline-date">Fin XIXe</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Naissance des sports modernes</h3>
+                    <p class="timeline-event-description">Diffusion du modèle sportif britannique en Europe. Création des premiers clubs de football et rugby.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Angleterre</span>
+                        <span class="timeline-tag">Football</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1896</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Premiers Jeux Olympiques modernes</h3>
+                    <p class="timeline-event-description">À Athènes, sous l'impulsion de Pierre de Coubertin. 14 pays participants, réservés aux amateurs.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">JO</span>
+                        <span class="timeline-tag">Athènes</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1903</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Création du Tour de France</h3>
+                    <p class="timeline-event-description">Par le journal L'Auto. Première compétition sportive organisée par la presse.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Cyclisme</span>
+                        <span class="timeline-tag">Presse</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1920-1924</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">JO sans anciens ennemis</h3>
+                    <p class="timeline-event-description">Exclusion de l'Allemagne et de l'Autriche des Jeux Olympiques comme punition de la Première Guerre mondiale.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Nationalisme</span>
+                        <span class="timeline-tag">Sanctions</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1930</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Première Coupe du monde de football</h3>
+                    <p class="timeline-event-description">Création du championnat du monde de football. Le sport professionnel s'organise internationalement.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">FIFA</span>
+                        <span class="timeline-tag">Uruguay</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1934</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Coupe du monde en Italie fasciste</h3>
+                    <p class="timeline-event-description">Mussolini instrumentalise la compétition. Pression énorme sur l'équipe nationale. L'Italie remporte la coupe.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Fascisme</span>
+                        <span class="timeline-tag">Propagande</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1936</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Jeux Olympiques de Berlin</h3>
+                    <p class="timeline-event-description">Vitrine du régime nazi. Mise en scène de la supériorité aryenne. Jesse Owens remporte 4 médailles d'or.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Nazisme</span>
+                        <span class="timeline-tag">Propagande</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1952</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">JO d'Helsinki - Première participation soviétique</h3>
+                    <p class="timeline-event-description">L'URSS participe pour la première fois. Villages olympiques séparés. Début de la rivalité USA-URSS.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Guerre froide</span>
+                        <span class="timeline-tag">URSS</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1968</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">JO de Mexico - Black Power</h3>
+                    <p class="timeline-event-description">Athlètes afro-américains lèvent le poing ganté sur le podium pour dénoncer le racisme aux États-Unis.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Droits civiques</span>
+                        <span class="timeline-tag">Protestation</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1972</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Massacre de Munich</h3>
+                    <p class="timeline-event-description">Prise d'otages de la délégation israélienne par un commando palestinien. 11 morts.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Terrorisme</span>
+                        <span class="timeline-tag">Palestine</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1976</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Boycott africain - JO Montréal</h3>
+                    <p class="timeline-event-description">Pays africains boycottent les Jeux pour dénoncer l'apartheid en Afrique du Sud.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Apartheid</span>
+                        <span class="timeline-tag">Boycott</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1980</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Boycott américain - JO Moscou</h3>
+                    <p class="timeline-event-description">Les États-Unis et pays occidentaux boycottent les JO en réponse à l'invasion soviétique de l'Afghanistan.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Guerre froide</span>
+                        <span class="timeline-tag">Afghanistan</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">1984</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Boycott soviétique - JO Los Angeles</h3>
+                    <p class="timeline-event-description">L'URSS et le bloc de l'Est boycottent les JO en représailles du boycott de 1980.</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Boycott</span>
+                        <span class="timeline-tag">Réciprocité</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-event">
+                <div class="timeline-date">2022</div>
+                <div class="timeline-event-content">
+                    <h3 class="timeline-event-title">Coupe du monde au Qatar</h3>
+                    <p class="timeline-event-description">Débats sur les droits humains, conditions des travailleurs migrants, soft power et "sportswashing".</p>
+                    <div class="timeline-event-tags">
+                        <span class="timeline-tag">Droits humains</span>
+                        <span class="timeline-tag">Soft power</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Schémas -->
+    <div class="schema-box">
+        <h3 class="schema-title">🏅 Évolution de la participation aux Jeux Olympiques</h3>
+        <div class="schema-grid">
+            <div class="schema-item">
+                <div class="schema-item-title">1896 - Athènes</div>
+                <div class="schema-item-content">14 pays participants</div>
+            </div>
+            <div class="schema-item">
+                <div class="schema-item-title">1936 - Berlin</div>
+                <div class="schema-item-content">49 pays participants</div>
+            </div>
+            <div class="schema-item">
+                <div class="schema-item-title">Aujourd'hui</div>
+                <div class="schema-item-content">Quasi-totalité des pays</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="schema-box">
+        <h3 class="schema-title">⚽ Acteurs de l'organisation sportive avant 1914</h3>
+        <div class="schema-grid">
+            <div class="schema-item">
+                <div class="schema-item-title">🏢 Clubs privés</div>
+                <div class="schema-item-content">Initiatives locales et élites</div>
+            </div>
+            <div class="schema-item">
+                <div class="schema-item-title">📰 Presse</div>
+                <div class="schema-item-content">Création de compétitions (Tour de France, Giro)</div>
+            </div>
+            <div class="schema-item">
+                <div class="schema-item-title">🤝 Fédérations</div>
+                <div class="schema-item-content">Codification et organisation</div>
+            </div>
+            <div class="schema-item">
+                <div class="schema-item-title">🏛️ États</div>
+                <div class="schema-item-content">Faible implication avant 1914</div>
+            </div>
+        </div>
+    </div>
+
+    <section id="intro">
+        <h2>Introduction : Internationalisation progressive du sport depuis la fin du XIXe siècle</h2>
+        
+        <p>Le sport moderne est né en Angleterre à la fin du XIXe siècle et s'est progressivement internationalisé, devenant un vecteur majeur des relations internationales au XXe siècle. Pour comprendre comment le sport est devenu un enjeu géopolitique, il faut d'abord examiner la façon dont il s'est développé et structuré dans les sociétés occidentales.</p>
+        
+        <p>L'internationalisation du sport s'inscrit dans un contexte plus large d'échanges internationaux croissants : mondialisation économique, droit international, et multiplication des manifestations à dimension internationale. Le sport participe pleinement de ce mouvement d'internationalisation qui caractérise la fin du XIXe et le XXe siècle.</p>
+    </section>
+
+    <section id="naissance">
+        <h2>La naissance et la diffusion des sports modernes (fin XIXe - début XXe)</h2>
+        
+        <h3>Le modèle britannique</h3>
+        
+        <p>Le premier club de football non scolaire en Angleterre marque le début de l'organisation moderne du sport. Les Britanniques, en exportant leur modèle économique et industriel à travers le monde, exportent également leur culture sportive.</p>
+        
+        <p>Cette diffusion des sports britanniques s'opère principalement en Europe, suivant les réseaux commerciaux britanniques. Les Anglais installés dans les grandes villes portuaires européennes pour le commerce apportent avec eux leurs pratiques sportives, notamment le football et le rugby.</p>
+        
+        <h3>Implantation en Europe</h3>
+        
+        <p>Les sports modernes se développent d'abord dans les grandes villes industrielles comme en Belgique, en France et aux Pays-Bas. Cette implantation se fait de deux manières :</p>
+        
+        <ul>
+            <li><strong>Par les Anglais expatriés</strong> qui pratiquent leurs sports traditionnels</li>
+            <li><strong>Par appropriation des élites locales</strong> qui adoptent ces nouvelles pratiques</li>
+        </ul>
+        
+        <p>Le football et le rugby, principalement, connaissent un fort succès auprès des élites européennes. Ces sports deviennent des symboles de modernité et de capitalisme prospère. Ils véhiculent les valeurs de l'entrepreneur en bonne santé et incarnent une certaine anglophilie des élites continentales.</p>
+        
+        <div class="highlight-box">
+            <h4>Valeurs véhiculées par les sports modernes :</h4>
+            <ul>
+                <li><strong>Compétition</strong> : transposition des valeurs économiques dans le domaine sportif</li>
+                <li><strong>Effort et dépassement de soi</strong></li>
+                <li><strong>Discipline collective</strong></li>
+                <li><strong>Rayonnement national</strong> : porter les couleurs de son pays</li>
+            </ul>
+        </div>
+        
+        <h3>Lien avec la colonisation</h3>
+        
+        <p>Dans les pays européens qui s'approprient cette nouvelle culture sportive, l'idée de favoriser le rayonnement d'un pays, de porter ses couleurs et d'exporter sa culture est particulièrement présente. Cette dynamique se retrouve notamment dans le processus de colonisation, où le sport devient un vecteur de diffusion culturelle.</p>
+        
+        <h3>L'exception américaine</h3>
+        
+        <p>Le rayonnement sportif britannique ne s'opère pas partout. Paradoxalement, l'exportation des sports modernes britanniques ne prend pas aux États-Unis, pourtant largement peuplés de colons d'origine européenne.</p>
+        
+        <p>Les États-Unis développent leurs propres sports à la fin du XIXe siècle :</p>
+        
+        <ul>
+            <li><strong>Football américain</strong></li>
+            <li><strong>Baseball</strong></li>
+            <li><strong>Basketball</strong></li>
+        </ul>
+        
+        <p>Ces sports américains, bien qu'extrêmement populaires aux États-Unis, peinent à s'exporter internationalement de la même façon que le football britannique. Ils restent largement confinés au marché national américain, malgré l'influence culturelle considérable des États-Unis au XXe siècle. </p>
+        <section id="structuration">
+    <h2>La structuration des sports modernes (début XXe siècle)</h2>
+    
+    <h3>Développement des compétitions</h3>
+    
+    <p>La multiplication des acteurs sportifs (clubs, associations, pratiquants) entraîne naturellement une multiplication des rencontres sportives. Les compétitions sportives voient d'abord le jour entre différents clubs à l'échelle locale, puis progressivement à une échelle plus internationale, bien que ce processus prenne du temps.</p>
+    
+    <h3>Facteurs d'internationalisation</h3>
+    
+    <h4>A. Le développement des moyens de transport</h4>
+    
+    <p>L'internationalisation des compétitions sportives va de pair avec le développement des moyens de transport internationaux :</p>
+    
+    <ul>
+        <li><strong>Le train</strong> : permet les déplacements nationaux et internationaux</li>
+        <li><strong>Le bateau</strong> : pour les liaisons maritimes</li>
+        <li><strong>L'aviation</strong> : révolutionne les déplacements intercontinentaux (plus tardif)</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <p><strong>Impact des transports :</strong> Pendant longtemps, une rencontre sportive était conditionnée par l'existence d'une gare. Au début du XXe siècle, organiser un match France-Angleterre constituait déjà un événement majeur. Un match France-Nouvelle-Zélande était quasiment impossible à envisager.</p>
+    </div>
+    
+    <h4>B. La structuration du secteur sportif</h4>
+    
+    <p>Le deuxième élément qui favorise le développement des échanges sportifs est la structuration du secteur lui-même. Les acteurs sportifs vont progressivement s'organiser et se fédérer.</p>
+    
+    <p><strong>Rôle des fédérations :</strong></p>
+    
+    <ul>
+        <li><strong>Établir des normes communes</strong> à l'échelle internationale pour favoriser les rencontres</li>
+        <li><strong>Codifier les pratiques</strong> : règles du jeu uniformisées</li>
+        <li><strong>Créer des championnats</strong> nationaux puis internationaux</li>
+        <li><strong>Sélectionner les meilleurs athlètes</strong> et constituer des équipes nationales</li>
+        <li><strong>Se coordonner internationalement</strong> pour organiser des compétitions</li>
+    </ul>
+    
+    <p>Cette structuration est progressive et prend plusieurs années entre la fin du XIXe et le début du XXe siècle. Elle constitue une étape essentielle de l'internationalisation du sport.</p>
+    
+    <h3>Les grandes compétitions internationales</h3>
+    
+    <p>Sur le plan des relations internationales, on parle véritablement d'internationalisation du sport à partir du début du XXe siècle, avec l'émergence de grandes compétitions à vocation internationale.</p>
+    
+    <h4>Les Jeux Olympiques modernes</h4>
+    
+    <p>Les Jeux Olympiques sont rénovés en 1892 sous l'impulsion de <strong>Pierre de Coubertin</strong>. La première édition des Jeux Olympiques modernes se tient en <strong>1896 à Athènes</strong>.</p>
+    
+    <div class="highlight-box">
+        <p><strong>Caractéristiques des premiers JO :</strong></p>
+        <ul>
+            <li>Réservés aux <strong>amateurs</strong> uniquement</li>
+            <li>14 pays participants en 1896</li>
+            <li>Volonté de promouvoir la paix par le sport</li>
+            <li>Idéal olympique : sport "au-dessus de la politique"</li>
+        </ul>
+    </div>
+    
+    <p>La professionnalisation du sport est un phénomène plus tardif au XXe siècle. On va voir se distinguer progressivement les sports amateurs des sports professionnels, avec des compétitions différentes.</p>
+    
+    <h4>Les championnats du monde professionnels</h4>
+    
+    <p>Dans les sports professionnels, on observe une volonté de se démarquer des Jeux Olympiques et des sports amateurs. Ce phénomène va se développer particulièrement dans l'entre-deux-guerres, avec la création de championnats du monde dans de nombreuses disciplines :</p>
+    
+    <table style="width: 100%; margin: 2rem 0; border-collapse: collapse;">
+        <thead>
+            <tr style="background-color: #667eea; color: white;">
+                <th style="padding: 1rem; text-align: left;">Année</th>
+                <th style="padding: 1rem; text-align: left;">Discipline</th>
+                <th style="padding: 1rem; text-align: left;">Compétition</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #f8f9fa;">
+                <td style="padding: 1rem;">1903</td>
+                <td style="padding: 1rem;">Cyclisme</td>
+                <td style="padding: 1rem;">Tour de France (créé par le journal L'Auto)</td>
+            </tr>
+            <tr>
+                <td style="padding: 1rem;">1927</td>
+                <td style="padding: 1rem;">Tennis de table</td>
+                <td style="padding: 1rem;">Championnat du monde</td>
+            </tr>
+            <tr style="background-color: #f8f9fa;">
+                <td style="padding: 1rem;">1929</td>
+                <td style="padding: 1rem;">Lutte</td>
+                <td style="padding: 1rem;">Championnat du monde</td>
+            </tr>
+            <tr>
+                <td style="padding: 1rem;"><strong>1930</strong></td>
+                <td style="padding: 1rem;"><strong>Football</strong></td>
+                <td style="padding: 1rem;"><strong>Coupe du monde</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3>Rôle des acteurs privés avant 1914</h3>
+    
+    <p>Dans ces compétitions et rencontres sportives internationales, les États n'ont pas toujours joué un rôle prépondérant. Jusqu'à la Première Guerre mondiale, ce sont les acteurs privés qui endossent cette responsabilité.</p>
+    
+    <h4>La presse comme organisateur</h4>
+    
+    <p>La presse constitue le média d'influence majeur du début du XXe siècle. Les journaux, notamment sportifs mais aussi généralistes, vont créer et organiser des compétitions sportives pour :</p>
+    
+    <ul>
+        <li>Développer des supports publicitaires</li>
+        <li>Vendre plus de titres</li>
+        <li>Fidéliser leur lectorat</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <p><strong>Exemples emblématiques :</strong></p>
+        <ul>
+            <li><strong>Le journal L'Auto</strong> crée le Tour de France cycliste en 1903</li>
+            <li><strong>La Gazzetta dello Sport</strong> crée le Tour d'Italie (Giro) quelques années plus tard</li>
+        </ul>
+    </div>
+    
+    <h4>Les fédérations privées</h4>
+    
+    <p>Les fédérations sont également des acteurs privés à cette époque. Elles jouent un rôle essentiel dans l'organisation progressive des compétitions internationales et la structuration du secteur sportif.</p>
+    
+    <h3>Participation internationale limitée</h3>
+    
+    <p>L'internationalisation des rencontres sportives au début du XXe siècle concerne un nombre limité d'États. Il s'agit d'une internationalisation relative, liée à l'extension progressive des sports modernes dans le monde.</p>
+    
+    <div class="highlight-box">
+        <p><strong>Évolution de la participation aux JO :</strong></p>
+        <ul>
+            <li><strong>1896 (Athènes)</strong> : 14 pays participants</li>
+            <li><strong>1936 (Berlin)</strong> : 49 pays participants</li>
+            <li><strong>Après 1945</strong> : augmentation continue avec la décolonisation</li>
+        </ul>
+    </div>
+    
+    <h3>Faible implication des États avant 1914</h3>
+    
+    <p>Avant la Première Guerre mondiale, l'implication des États dans la structuration et l'organisation des sports modernes reste limitée. Plusieurs facteurs expliquent cette situation :</p>
+    
+    <h4>Le sport n'est pas encore un phénomène social de masse</h4>
+    
+    <ul>
+        <li><strong>Public restreint</strong> : le sport est principalement réservé aux élites</li>
+        <li><strong>Pas encore démocratisé</strong> : ne touche pas les masses populaires</li>
+        <li><strong>Moyens de diffusion limités</strong> : uniquement la presse écrite et les stades</li>
+        <li><strong>Absence de grands stades</strong> : exception du Royaume-Uni</li>
+    </ul>
+    
+    <h4>Expression de fierté nationale mais pas de nationalisme exacerbé</h4>
+    
+    <p>Certes, une rencontre internationale entre pays exprime une forme de fierté nationale, mais on n'observe pas encore :</p>
+    
+    <ul>
+        <li>D'utilisation politique systématique des événements sportifs</li>
+        <li>De manipulation par les États à des fins propagandistes</li>
+        <li>D'expression d'un nationalisme exacerbé</li>
+    </ul>
+    
+    <p>Les États ne voient pas encore l'utilité stratégique du sport. Cette situation va radicalement changer avec la Première Guerre mondiale et surtout pendant l'entre-deux-guerres.</p>
+</section>
+
+<section id="politisation">
+    <h2>La politisation du sport dans l'entre-deux-guerres (1918-1939)</h2>
+    
+    <h3>Changement de paradigme après 1918</h3>
+    
+    <p>La Première Guerre mondiale marque un tournant majeur dans l'histoire du sport international. L'explosion nationaliste de la guerre va imprégner tous les aspects de la société, y compris le sport.</p>
+    
+    <p>Dans ce contexte de crise internationale majeure, les compétitions sportives vont devenir un espace d'affrontement symbolique des nationalismes. Chaque État-nation va chercher à montrer sa supériorité par le biais du sport.</p>
+    
+    <h4>Prise de conscience des États</h4>
+    
+    <p>Les États réalisent l'importance sociale, culturelle, économique et politique du sport. Ils comprennent le potentiel de manipulation de ces événements à des fins nationalistes.</p>
+    
+    <div class="highlight-box">
+        <p><strong>Évolution majeure :</strong> Après 1918, les États, particulièrement les États totalitaires, vont exploiter les événements sportifs comme un prolongement d'un message politique, d'une conception du monde. Pour les régimes nazis et fascistes, le sport devient une véritable vitrine de leur régime.</p>
+    </div>
+    
+    <h3>Des compétitions olympiques "apolitiques" ?</h3>
+    
+    <p>Le Comité International Olympique (CIO) déclare le sport "au-dessus de la politique" et affirme sa neutralité. Pourtant, les faits démontrent tout l'inverse.</p>
+    
+    <h4>Les JO de 1920 et 1924 : premières exclusions politiques</h4>
+    
+    <p>Les Jeux Olympiques de 1920 (Anvers) et 1924 (Paris) se déroulent sans les anciens ennemis de la Première Guerre mondiale :</p>
+    
+    <ul>
+        <li><strong>Allemagne</strong> : exclue</li>
+        <li><strong>Autriche</strong> : exclue</li>
+        <li><strong>Hongrie</strong> : exclue</li>
+    </ul>
+    
+    <p>Cette exclusion constitue une forme de punition collective suite à la guerre. Elle démontre que les Jeux Olympiques, contrairement à l'idéal proclamé par Coubertin, ne sont pas neutres politiquement.</p>
+    
+    <h4>Nationalisme dans les déclarations officielles</h4>
+    
+    <p>Les déclarations de certains dirigeants sportifs révèlent l'intensité du nationalisme sportif. Le président du Comité Olympique américain déclare lors d'une compétition :</p>
+    
+    <blockquote style="border-left: 4px solid #667eea; padding-left: 1rem; margin: 2rem 0; font-style: italic; color: #555;">
+        "Nous sommes ici pour représenter le meilleur pays au monde, les États-Unis. Nous ne sommes pas venus ici pour perdre gracieusement, nous sommes venus pour gagner de façon décisive."
+    </blockquote>
+    
+    <p>Cette citation illustre combien la compétition sportive est déjà perçue comme un reflet de la puissance nationale.</p>
+    
+    <h3>Le sport comme reflet de puissance</h3>
+    
+    <p>Le sport devient progressivement :</p>
+    
+    <ul>
+        <li>Un <strong>moyen de véhiculer des valeurs et des idéaux</strong></li>
+        <li>Un <strong>reflet de la puissance d'un pays</strong></li>
+        <li>Un <strong>outil de propagande</strong> (dans les régimes totalitaires particulièrement)</li>
+    </ul>
+    
+    <p>Cette évolution va connaître son paroxysme avec les régimes totalitaires de l'entre-deux-guerres, qui vont instrumentaliser systématiquement le sport à des fins politiques et idéologiques.</p>
+
+    <section id="totalitaires">
+    <h2>Les régimes totalitaires et l'instrumentalisation du sport</h2>
+    
+    <h3>L'Italie fasciste : Coupe du monde 1934</h3>
+    
+    <p>La Coupe du monde de football de 1934 en Italie constitue un exemple emblématique de l'instrumentalisation du sport par un régime totalitaire.</p>
+    
+    <h4>Organisation et manipulation</h4>
+    
+    <p>L'Italie fasciste organise la phase finale de la Coupe du monde. Le gouvernement de Mussolini va mettre une <strong>pression phénoménale</strong> sur l'organisation et sur l'équipe nationale pour qu'elle gagne la compétition.</p>
+    
+    <div class="highlight-box">
+        <h4>Objectifs de Mussolini :</h4>
+        <ul>
+            <li><strong>Consolider l'union du peuple</strong> autour de l'idéologie fasciste</li>
+            <li><strong>Se faire acclamer</strong> et apparaître comme l'artisan de la victoire</li>
+            <li><strong>Démontrer la supériorité</strong> du modèle fasciste</li>
+        </ul>
+    </div>
+    
+    <h4>Contexte de la compétition</h4>
+    
+    <ul>
+        <li><strong>Présence de milices</strong> autour des stades</li>
+        <li><strong>Fort contrôle des autorités fascistes</strong> sur l'ensemble de l'organisation</li>
+        <li><strong>Mussolini omniprésent</strong> dans les tribunes officielles</li>
+        <li><strong>Pression sur les arbitres et les équipes adverses</strong></li>
+    </ul>
+    
+    <h4>Le rôle de la presse</h4>
+    
+    <p>La presse, sous contrôle des autorités fascistes, se fait le relais de l'idéologie du régime. Après la victoire italienne, le journal <em>Il Popolo d'Italia</em> écrit :</p>
+    
+    <blockquote style="border-left: 4px solid #667eea; padding-left: 1rem; margin: 2rem 0; font-style: italic; color: #555;">
+        "Les joueurs offrent à Mussolini leur joie, leur victoire, et le remercient pour l'œuvre accomplie en l'honneur de l'Italie et du sport."
+    </blockquote>
+    
+    <p>Mussolini est présenté comme le principal artisan de la victoire, récupérant les lauriers d'un succès que son régime et ses services ont tout fait pour obtenir, y compris par des moyens détournés.</p>
+    
+    <h4>Nuances historiques</h4>
+    
+    <div class="highlight-box">
+        <p><strong>Important :</strong> Il faut nuancer l'impact réel de cet événement sur la société italienne. Les historiens soulignent que :</p>
+        <ul>
+            <li>Le récit de la presse fasciste ne reflète pas forcément l'adhésion réelle de la population</li>
+            <li>La société italienne n'était pas entièrement subjuguée par le régime</li>
+            <li>Le <strong>cyclisme</strong> était en réalité plus populaire que le football, car il passait dans tous les villages et touchait directement les populations</li>
+        </ul>
+    </div>
+    
+    <h3>L'Allemagne nazie : Jeux Olympiques de Berlin 1936</h3>
+    
+    <p>Les Jeux Olympiques de Berlin 1936 constituent l'exemple le plus emblématique et le plus abouti de l'instrumentalisation du sport par un régime totalitaire.</p>
+    
+    <h4>Contexte de l'attribution</h4>
+    
+    <p>Les Jeux Olympiques de 1936 avaient été attribués à l'Allemagne <strong>avant</strong> l'arrivée au pouvoir d'Hitler en 1933. L'attribution s'était faite à la <strong>République de Weimar</strong>, régime démocratique.</p>
+    
+    <p>Malgré l'arrivée du régime nazi, le Comité International Olympique ne dénonce pas l'attribution précédente. Bien que de nombreuses voix s'élèvent internationalement pour critiquer l'organisation des Jeux par un régime fasciste, le CIO maintient sa décision.</p>
+    
+    <div class="highlight-box">
+        <p><strong>Contexte international :</strong> Dans les années 1930, les mouvances fascistes et les sympathies pour le nationalisme sont très présentes un peu partout en Europe, y compris dans les instances internationales. Cela explique en partie la complaisance du CIO.</p>
+    </div>
+    
+    <h4>Le modèle italien comme inspiration</h4>
+    
+    <p>Les nazis vont largement s'inspirer du modèle italien de 1934 pour développer leur propre instrumentalisation du sport. La victoire de l'Italie fasciste sur l'Angleterre (créatrice du football et symbole de la démocratie libérale) en 1934 a servi de démonstration de la supériorité d'un modèle autoritaire sur un modèle démocratique.</p>
+    
+    <h4>Le sport d'État nazi</h4>
+    
+    <p>Les nazis vont développer un véritable <strong>sport d'État</strong>, une machine de guerre au service du régime, avec deux objectifs distincts :</p>
+    
+    <h5>A. Objectifs internes (société allemande)</h5>
+    
+    <ul>
+        <li><strong>Culte du corps</strong> : promotion d'une culture physique intensive</li>
+        <li><strong>Culte de la pureté raciale</strong> : l'idée que la "race pure" est naturellement plus performante</li>
+        <li><strong>Manipulation de la société</strong> : utilisation du sport pour formater les esprits</li>
+        <li><strong>Préparation militaire</strong> : le sport comme entraînement à la guerre</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <p><strong>Sport et militarisme :</strong> La frontière entre entraînement sportif et entraînement militaire est délibérément floue dans le régime nazi. Les organisations de jeunesse mettent en avant des valeurs directement transposables :</p>
+        <ul>
+            <li>Discipline</li>
+            <li>Obéissance aux chefs</li>
+            <li>Esprit de corps</li>
+            <li>Sacrifice pour la nation</li>
+        </ul>
+        <p>Citation d'un organe du régime : <em>"Les athlètes sont des soldats en survêtement combattant pour la patrie."</em></p>
+    </div>
+    
+    <h5>B. Objectifs externes (propagande internationale)</h5>
+    
+    <ul>
+        <li><strong>Démonstration de puissance</strong> vis-à-vis du reste du monde</li>
+        <li><strong>Montrer la supériorité</strong> de l'Allemagne nazie</li>
+        <li><strong>Masquer la politique de persécution</strong> des Juifs pendant la durée des Jeux</li>
+    </ul>
+    
+    <h4>Mise en scène olympique</h4>
+    
+    <p>L'organisation des Jeux de Berlin est minutieusement préparée pour servir de vitrine au régime nazi.</p>
+    
+    <ul>
+        <li><strong>Dissimulation temporaire de l'antisémitisme</strong> : retrait des panneaux "Interdit aux Juifs" dans les environs des stades</li>
+        <li><strong>Démonstration organisationnelle</strong> : capacité du régime à organiser un événement de grande ampleur</li>
+        <li><strong>Mise en scène cinématographique</strong> : film <em>"Olympia"</em> de Leni Riefenstahl</li>
+        <li><strong>Répétition des performances</strong> : certains exploits sportifs sont répétés pour obtenir les meilleures images</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <p><strong>Le film "Olympia" :</strong> Ce documentaire de propagande réalisé par Leni Riefenstahl est techniquement très moderne pour l'époque. Il présente une esthétique de glorification du corps aryen et de la puissance allemande. Après la guerre, Riefenstahl sera controversée pour son rôle dans la propagande nazie, bien que le film soit reconnu pour ses innovations cinématographiques.</p>
+    </div>
+    
+    <h4>Jesse Owens : une contrariété embarrassante</h4>
+    
+    <p>La mise en scène de la supériorité nazie est parfois contrariée par les faits. <strong>Jesse Owens</strong>, athlète afro-américain, remporte <strong>4 médailles d'or</strong> :</p>
+    
+    <ul>
+        <li>100 mètres</li>
+        <li>200 mètres</li>
+        <li>Saut en longueur</li>
+        <li>Relais 4x100 mètres</li>
+    </ul>
+    
+    <p>Cette performance embarrasse profondément les autorités allemandes qui prônent la supériorité de la race aryenne. Toutefois, les nazis rebondissent en récupérant cet élément :</p>
+    
+    <blockquote style="border-left: 4px solid #667eea; padding-left: 1rem; margin: 2rem 0; font-style: italic; color: #555;">
+        "Nous accueillons le monde entier à cet événement, pas uniquement les Aryens. Nous ne sommes pas ce que certains veulent nous faire passer pour."
+    </blockquote>
+    
+    <p>Cette récupération permet au régime de se présenter comme ouvert et tolérant, alors même qu'il poursuit sa politique de persécution.</p>
+    
+    <h4>Appels au boycott</h4>
+    
+    <p>Des appels au boycott des Jeux de Berlin sont lancés par diverses organisations, mais ils sont assez peu relayés et n'aboutissent pas. La plupart des pays participent finalement aux Jeux, légitimant ainsi involontairement le régime nazi.</p>
+    
+    <h4>Sport et préparation à la guerre</h4>
+    
+    <p>Dans les années 1930, l'Allemagne se trouve dans une période de marche à la guerre :</p>
+    
+    <ul>
+        <li><strong>Refus du Traité de Versailles</strong></li>
+        <li><strong>Réarmement massif</strong></li>
+        <li><strong>Sortie des organisations internationales</strong></li>
+        <li><strong>Processus de renforcement de l'armée</strong></li>
+    </ul>
+    
+    <p>Le sport devient un outil essentiel dans cette préparation. Les organisations de jeunesse nazies font du sport une valeur centrale, avec des valeurs clairement transposables dans l'armée. L'objectif militaire par le sport est explicite.</p>
+    
+    <h3>Contre-mouvement : Olympiades populaires antifascistes (1936)</h3>
+    
+    <p>Face à cette manipulation nazie, un contre-mouvement s'organise. Les <strong>Olympiades populaires antifascistes</strong> devaient se tenir à <strong>Barcelone en 1936</strong>.</p>
+    
+    <h4>Caractéristiques</h4>
+    
+    <ul>
+        <li><strong>Organisées par les forces antifascistes</strong> : partis communistes, socialistes, syndicalistes</li>
+        <li><strong>Participants</strong> : sportifs ouvriers, combattants antifascistes du monde entier</li>
+        <li><strong>Objectif</strong> : montrer l'opposition à la mascarade fasciste de Berlin</li>
+        <li><strong>Alternative</strong> : proposer une vision du sport au service du peuple, non du pouvoir</li>
+    </ul>
+    
+    <h4>Annulation tragique</h4>
+    
+    <p>Malheureusement, juste avant le début de la compétition sportive à l'été 1936, a lieu le <strong>soulèvement militaire franquiste</strong>. La <strong>Guerre civile espagnole</strong> commence et les Olympiades populaires n'ont jamais lieu.</p>
+    
+    <p>Les preuves de l'organisation et de la mobilisation existent dans les archives, témoignant de cette tentative de construire une alternative antifasciste au sport instrumentalisé.</p>
+</section>
+
+<section id="urss">
+    <h2>L'Union soviétique et le sport (entre-deux-guerres et après)</h2>
+    
+    <h3>Doctrine du sport ouvrier (années 1920-1930)</h3>
+    
+    <p>Après la Révolution de 1917, l'État soviétique définit une doctrine nouvelle fondée sur le <strong>sport ouvrier</strong>. Le sport est utilisé à des fins idéologiques spécifiques.</p>
+    
+    <h4>Principes idéologiques</h4>
+    
+    <ul>
+        <li><strong>Sport au service de la lutte des classes</strong></li>
+        <li><strong>Contribution à l'effort de la révolution mondiale</strong></li>
+        <li><strong>Sport perçu comme un outil révolutionnaire</strong>, non comme un simple divertissement</li>
+    </ul>
+    
+    <h4>Refus des structures internationales</h4>
+    
+    <p>L'URSS en tant qu'État refuse de s'affilier aux fédérations internationales, perçues comme <strong>bourgeoises et capitalistes</strong>. Ce refus se manifeste par :</p>
+    
+    <ul>
+        <li><strong>Boycott des compétitions internationales</strong></li>
+        <li><strong>Non-participation aux Jeux Olympiques</strong> (considérés comme une manifestation bourgeoise)</li>
+        <li><strong>Création de structures alternatives</strong></li>
+    </ul>
+        <h4>Critique des Jeux Olympiques</h4>
+    
+    <p>Les autorités soviétiques critiquent particulièrement les Jeux Olympiques, notamment ceux de Berlin, pour plusieurs raisons :</p>
+    
+    <ul>
+        <li><strong>Spectacularisation du sport</strong> : détourne le peuple de la lutte révolutionnaire</li>
+        <li><strong>Caractère bourgeois</strong> : événement réservé aux élites</li>
+        <li><strong>Instrumentalisation nationaliste</strong> : contraire à l'internationalisme prolétarien</li>
+    </ul>
+    
+    <blockquote style="border-left: 4px solid #667eea; padding-left: 1rem; margin: 2rem 0; font-style: italic; color: #555;">
+        Les autorités soviétiques décrivent les JO comme "des événements qui détournent les peuples révolutionnaires de la lutte des classes et de l'effort révolutionnaire."
+    </blockquote>
+    
+    <h4>Modèle soviétique alternatif</h4>
+    
+    <h5>Contre le sport de compétition</h5>
+    
+    <p>L'URSS se positionne initialement contre le sport de compétition individualiste :</p>
+    
+    <ul>
+        <li><strong>Rejet du modèle individualiste</strong> : contraire aux valeurs collectives</li>
+        <li><strong>Sport de compétition jugé néfaste</strong> pour la santé et l'émancipation des travailleurs</li>
+        <li><strong>Critique des valeurs individualistes</strong> encouragées par le sport capitaliste</li>
+    </ul>
+    
+    <h5>Promotion de la culture physique</h5>
+    
+    <p>À la place du sport de compétition, l'URSS développe une <strong>culture physique</strong> fondée sur :</p>
+    
+    <ul>
+        <li><strong>Valeurs collectives</strong> et solidarité ouvrière</li>
+        <li><strong>Coopération</strong> plutôt que compétition</li>
+        <li><strong>Mise en valeur du groupe</strong></li>
+        <li><strong>Activité physique au service du collectif</strong></li>
+    </ul>
+    
+    <h5>Les Spartakiades</h5>
+    
+    <p>L'URSS organise les <strong>Spartakiades</strong>, véritables "Jeux olympiques ouvriers" :</p>
+    
+    <ul>
+        <li><strong>Première édition en 1928</strong></li>
+        <li><strong>Règles différentes</strong> favorisant la coopération</li>
+        <li><strong>Participants</strong> : travailleurs, paysans, membres du Parti</li>
+        <li><strong>Objectif</strong> : promouvoir les valeurs révolutionnaires par l'activité physique</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <p><strong>Spartakiades :</strong> Ces compétitions alternatives mettent en avant la solidarité ouvrière plutôt que la performance individuelle. Elles visent à démontrer la supériorité du modèle collectiviste soviétique sur le modèle capitaliste individualiste.</p>
+    </div>
+    
+    <h3>Évolution après la Seconde Guerre mondiale</h3>
+    
+    <h4>Changement de stratégie</h4>
+    
+    <p>La position de l'URSS évolue progressivement après la Seconde Guerre mondiale. À mesure que l'URSS se consolide comme <strong>État-nation</strong> et abandonne l'idée de révolution mondiale immédiate, sa vision du sport change.</p>
+    
+    <h4>Nouveau positionnement</h4>
+    
+    <p>L'URSS réalise qu'elle doit s'affirmer comme étendard de la révolution vis-à-vis du monde occidental. Pour cela, il faut :</p>
+    
+    <ul>
+        <li><strong>Participer aux compétitions internationales</strong></li>
+        <li><strong>Porter les couleurs de l'URSS</strong> et de la révolution</li>
+        <li><strong>Entrer dans la compétition mondiale sportive</strong></li>
+    </ul>
+    
+    <p>Le sport devient alors un <strong>vecteur du prestige de la révolution</strong>. Même si les raisons idéologiques diffèrent de celles des régimes fascistes, le résultat est similaire : développement d'une forme de <strong>nationalisme sportif</strong>.</p>
+    
+    <h4>Objectif : démontrer la supériorité du modèle socialiste</h4>
+    
+    <p>L'utilisation du sport vise à démontrer la supériorité du modèle révolutionnaire sur les États bourgeois capitalistes. Cette rivalité va pleinement s'exprimer pendant la Guerre froide.</p>
+    
+    <div class="highlight-box">
+        <p><strong>Paradoxe :</strong> L'URSS, qui critiquait initialement la compétition sportive comme bourgeoise et individualiste, adopte finalement une approche très compétitive et nationaliste du sport international, similaire dans ses effets à celle des régimes qu'elle condamnait.</p>
+    </div>
+</section>
+
+<section id="guerre-froide">
+    <h2>Sport et Guerre froide (1945-1991)</h2>
+    
+    <h3>Internationalisation et démocratisation du sport</h3>
+    
+    <p>Après la Seconde Guerre mondiale, le sport connaît une internationalisation croissante et une démocratisation sans précédent :</p>
+    
+    <ul>
+        <li><strong>Participation quasi-universelle</strong> aux grandes compétitions</li>
+        <li><strong>Démocratisation</strong> : le sport touche toutes les couches sociales</li>
+        <li><strong>Développement des médias de masse</strong> : télévision notamment</li>
+        <li><strong>Investissement étatique massif</strong> dans le sport</li>
+    </ul>
+    
+    <p>Cette évolution fait du sport un véritable phénomène social de masse et un enjeu politique majeur.</p>
+    
+    <h3>La rivalité USA-URSS : affrontement symbolique</h3>
+    
+    <p>Durant la Guerre froide, la rivalité entre les États-Unis et l'URSS va avoir une très forte <strong>dramatisation</strong> dans le domaine sportif. Les compétitions deviennent un espace d'affrontement symbolique entre les deux superpuissances et leurs modèles idéologiques respectifs.</p>
+    
+    <h4>JO d'Helsinki 1952 : première participation soviétique</h4>
+    
+    <p>Les Jeux Olympiques d'Helsinki en 1952 marquent la <strong>première participation de l'URSS</strong> aux Jeux Olympiques modernes. Ce moment est hautement symbolique.</p>
+    
+    <div class="highlight-box">
+        <h4>Caractéristiques des JO d'Helsinki :</h4>
+        <ul>
+            <li><strong>Choix d'Helsinki</strong> : ville neutre vis-à-vis de l'URSS (Finlande)</li>
+            <li><strong>Séparation des villages olympiques</strong> : athlètes américains et soviétiques logés séparément</li>
+            <li><strong>Tension extrême</strong> lors des confrontations directes</li>
+            <li><strong>Compétition au tableau des médailles</strong> : nouvelle dimension de la rivalité</li>
+        </ul>
+    </div>
+    
+    <p>L'URSS veut s'affirmer comme étendard de la révolution face au monde occidental. Chaque victoire sportive devient une démonstration de la supériorité d'un système sur l'autre.</p>
+    
+    <h4>Dramatisation médiatique</h4>
+    
+    <p>Avec le développement des médias de masse, particulièrement la télévision, l'opposition USA-URSS dans le sport bénéficie d'une couverture médiatique intense. Le public mondial suit ces affrontements comme des batailles idéologiques.</p>
+    
+    <p>Aux États-Unis notamment, ces confrontations sportives deviennent une véritable <strong>attraction nationale</strong>, presque une obsession. Chaque rencontre USA-URSS est vécue comme un enjeu de prestige national.</p>
+    
+    <h4>Les boycotts olympiques</h4>
+    
+    <p>La rivalité USA-URSS va jusqu'au boycott des Jeux Olympiques, témoignant de l'intensité de l'affrontement idéologique.</p>
+    
+    <h5>JO de Moscou 1980</h5>
+    
+    <ul>
+        <li><strong>Boycott américain</strong> et de nombreux pays occidentaux</li>
+        <li><strong>Contexte</strong> : invasion soviétique de l'Afghanistan en 1979</li>
+        <li><strong>Retour de la guerre froide</strong> après la période de détente des années 1970</li>
+        <li><strong>Impact</strong> : légitimité des Jeux remise en question</li>
+    </ul>
+    
+    <h5>JO de Los Angeles 1984</h5>
+    
+    <ul>
+        <li><strong>Boycott soviétique</strong> en représailles</li>
+        <li><strong>Boycott du bloc de l'Est</strong> (à l'exception de la Roumanie)</li>
+        <li><strong>Logique de réciprocité</strong></li>
+        <li><strong>Guerre froide au cœur de l'olympisme</strong></li>
+    </ul>
+    
+    <div class="highlight-box">
+        <p><strong>Rôle du CIO :</strong> Le Comité International Olympique tente de maintenir un équilibre et de jouer un rôle quasi diplomatique. Le choix des villes hôtes devient un exercice délicat de géopolitique, cherchant à ne pas favoriser un camp plutôt qu'un autre.</p>
+    </div>
+    
+    <h3>La rivalité inter-allemande : RFA vs RDA</h3>
+    
+    <p>La division de l'Allemagne en deux États offre un autre théâtre d'affrontement symbolique pendant la Guerre froide.</p>
+    
+    <h4>Contexte de division</h4>
+    
+    <ul>
+        <li><strong>Deux Allemagnes</strong> reconnues internationalement après 1949</li>
+        <li><strong>RFA (République Fédérale d'Allemagne)</strong> : Allemagne de l'Ouest, capitaliste</li>
+        <li><strong>RDA (République Démocratique Allemande)</strong> : Allemagne de l'Est, communiste</li>
+        <li><strong>Deux États pour une nation</strong> : rivalité exacerbée</li>
+    </ul>
+    
+    <h4>Stratégie de la RDA (Allemagne de l'Est)</h4>
+    
+    <p>Pour la RDA, le sport devient un enjeu existentiel :</p>
+    
+    <ul>
+        <li><strong>S'affirmer sur la scène internationale</strong></li>
+        <li><strong>Montrer que le modèle socialiste produit de meilleurs athlètes</strong></li>
+        <li><strong>Compenser l'infériorité économique</strong> par la supériorité sportive</li>
+        <li><strong>Légitimer l'existence de l'État est-allemand</strong></li>
+    </ul>
+    
+    <h4>JO de Munich 1972 : victoire symbolique</h4>
+    
+    <p>Les Jeux Olympiques de Munich 1972 se déroulent en RFA (Allemagne de l'Ouest). Pour la RDA, c'est l'occasion de briller sur le territoire de son rival.</p>
+    
+    <div class="highlight-box">
+        <h4>Performance de la RDA :</h4>
+        <ul>
+            <li><strong>Deuxième place</strong> au tableau des médailles</li>
+            <li><strong>Devant les États-Unis</strong></li>
+            <li><strong>Derrière l'URSS uniquement</strong></li>
+            <li><strong>Grande victoire symbolique</strong> pour un petit État</li>
+        </ul>
+    </div>
+    
+    <h4>Système de dopage institutionnalisé</h4>
+    
+    <p>Pour atteindre ces résultats, la RDA met en place un <strong>système de dopage d'État systématique et institutionnalisé</strong> :</p>
+    
+    <ul>
+        <li><strong>Programme secret</strong> supervisé par l'État</li>
+        <li><strong>Dopage des athlètes</strong> souvent à leur insu</li>
+        <li><strong>Objectif</strong> : remporter les "batailles idéologiques"</li>
+        <li><strong>Contrôle strict des athlètes</strong> pour empêcher les passages à l'Ouest</li>
+        <li><strong>Conséquences sanitaires graves</strong> pour de nombreux athlètes</li>
+    </ul>
+    
+    <p>Ce système de dopage ne sera révélé qu'après la réunification allemande en 1990, avec l'ouverture des archives de la Stasi (police secrète est-allemande).</p>
+    
+    <h4>Confrontations directes RFA-RDA</h4>
+    
+    <p>La rivalité inter-allemande atteint son paroxysme lors des rares confrontations directes entre les deux équipes :</p>
+    
+    <ul>
+        <li><strong>Matches de football</strong> : tension extrême</li>
+        <li><strong>Coupe du monde 1974</strong> : RDA et RFA dans le même groupe</li>
+        <li><strong>Victoire surprise de la RDA</strong> : 1-0 en phase de poules</li>
+        <li><strong>Mais domination globale de la RFA</strong> qui remporte le tournoi</li>
+    </ul>
+    
+    <p>Pour les Allemands des deux côtés, ces confrontations sont vécues comme des affrontements idéologiques incarnés, bien au-delà du simple sport.</p>
+    
+    <h3>La géopolitique des Jeux Olympiques</h3>
+    
+    <h4>Choix des villes hôtes : considérations géopolitiques</h4>
+    <p>Le Comité International Olympique (CIO) cherche à représenter l'universalité olympique et à maintenir un équilibre géopolitique dans l'attribution des Jeux. Le choix des villes hôtes reflète souvent des considérations politiques et diplomatiques.</p>
+        <table style="width: 100%; margin: 2rem 0; border-collapse: collapse;">
+        <thead>
+            <tr style="background-color: #667eea; color: white;">
+                <th style="padding: 1rem; text-align: left;">Année</th>
+                <th style="padding: 1rem; text-align: left;">Ville</th>
+                <th style="padding: 1rem; text-align: left;">Signification géopolitique</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #f8f9fa;">
+                <td style="padding: 1rem;">1968</td>
+                <td style="padding: 1rem;">Mexico</td>
+                <td style="padding: 1rem;">Émergence du Tiers-Monde, reconnaissance du mouvement des non-alignés</td>
+            </tr>
+            <tr>
+                <td style="padding: 1rem;">1972</td>
+                <td style="padding: 1rem;">Munich</td>
+                <td style="padding: 1rem;">Normalisation de l'Allemagne (RFA) après la Seconde Guerre mondiale</td>
+            </tr>
+            <tr style="background-color: #f8f9fa;">
+                <td style="padding: 1rem;">1980</td>
+                <td style="padding: 1rem;">Moscou</td>
+                <td style="padding: 1rem;">Reconnaissance de l'URSS (choix fait pendant la détente, puis boycott avec l'Afghanistan)</td>
+            </tr>
+            <tr>
+                <td style="padding: 1rem;">1988</td>
+                <td style="padding: 1rem;">Séoul</td>
+                <td style="padding: 1rem;">Reconnaissance de l'Asie comme région économiquement et politiquement active</td>
+            </tr>
+            <tr style="background-color: #f8f9fa;">
+                <td style="padding: 1rem;">1992</td>
+                <td style="padding: 1rem;">Barcelone</td>
+                <td style="padding: 1rem;">Retour à la démocratie en Espagne après la dictature franquiste</td>
+            </tr>
+            <tr>
+                <td style="padding: 1rem;">2008</td>
+                <td style="padding: 1rem;">Pékin</td>
+                <td style="padding: 1rem;">Affirmation de la Chine comme puissance mondiale émergente</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h4>FIFA : logique différente</h4>
+    
+    <p>Contrairement au CIO, la FIFA (Fédération Internationale de Football Association) ne suit pas nécessairement les mêmes considérations géopolitiques. Ses choix sont davantage guidés par des <strong>critères économiques</strong>.</p>
+    
+    <div class="highlight-box">
+        <p><strong>Exemple : Coupe du monde 1994 aux États-Unis</strong></p>
+        <p>Objectif principal : <strong>implanter le football professionnel aux États-Unis</strong> et conquérir le marché américain, plutôt que de récompenser une tradition footballistique.</p>
+        <ul>
+            <li>Les États-Unis n'avaient participé à aucune Coupe du monde depuis longtemps</li>
+            <li>Ils se qualifient en 1994 car pays organisateur</li>
+            <li>Logique de développement commercial du football (soccer)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="tribune">
+    <h2>Le sport comme tribune politique et revendicative</h2>
+    
+    <h3>Pays nouvellement décolonisés</h3>
+    
+    <h4>Affirmation sur la scène internationale</h4>
+    
+    <p>Pour les pays nouvellement décolonisés, les compétitions sportives internationales constituent un moyen privilégié de s'affirmer sur la scène mondiale :</p>
+    
+    <ul>
+        <li><strong>Montrer son existence</strong> au sein du concert des nations</li>
+        <li><strong>Victoire symbolique</strong> face aux anciennes puissances coloniales</li>
+        <li><strong>Participer à égalité</strong> avec les grandes puissances</li>
+    </ul>
+    
+    <p>Une victoire sportive sur l'ancienne puissance coloniale a une signification politique et symbolique considérable, bien au-delà du simple résultat sportif.</p>
+    
+    <h4>Construction identitaire nationale</h4>
+    
+    <p>Le sport joue un rôle crucial dans la construction des jeunes nations indépendantes :</p>
+    
+    <ul>
+        <li><strong>Unir le pays</strong> derrière un projet national commun</li>
+        <li><strong>Créer une identité collective</strong> : les États issus de la décolonisation préexistaient rarement aux empires coloniaux</li>
+        <li><strong>Dépasser les divisions</strong> ethniques, linguistiques ou religieuses</li>
+        <li><strong>Fierté nationale</strong> : rassembler la population autour d'une équipe nationale</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <p><strong>Importance symbolique :</strong> Pour ces jeunes États-nations, participer à une Coupe du monde ou aux Jeux Olympiques, même sans gagner, constitue déjà une victoire symbolique importante. C'est exister aux côtés des grandes puissances dans le concert des nations.</p>
+    </div>
+    
+    <h3>Causes et revendications portées par le sport</h3>
+    
+    <p>Les compétitions sportives sont aussi des moyens de diffuser des messages politiques et des revendications. Par l'exposition médiatique qu'elles offrent, elles deviennent des tribunes particulières pour porter des causes.</p>
+    
+    <h4>A. Droits civiques et racisme : JO de Mexico 1968</h4>
+    
+    <p>Les Jeux Olympiques de Mexico en 1968 sont le théâtre d'une des images les plus iconiques de protestation sportive.</p>
+    
+    <div class="highlight-box">
+        <h4>Le geste du Black Power :</h4>
+        <ul>
+            <li><strong>Athlètes</strong> : Tommie Smith (médaille d'or, 200m) et John Carlos (médaille de bronze)</li>
+            <li><strong>Geste</strong> : Sur le podium, levée du poing ganté de noir (symbole du Black Power)</li>
+            <li><strong>Message</strong> : Protestation contre la ségrégation et le racisme aux États-Unis</li>
+            <li><strong>Contexte</strong> : Mouvement des droits civiques aux États-Unis, assassinat de Martin Luther King en avril 1968</li>
+            <li><strong>Conséquences</strong> : Sanction du CIO, exclusion des Jeux, retour difficile aux États-Unis</li>
+        </ul>
+    </div>
+    
+    <p>Cette image reste l'une des plus puissantes illustrations de l'utilisation du sport comme tribune politique. Elle démontre que les athlètes peuvent utiliser leur visibilité pour porter des causes qui les dépassent.</p>
+    
+    <h4>B. Cause palestinienne : Massacre de Munich 1972</h4>
+    
+    <p>Les Jeux Olympiques de Munich en 1972 sont marqués par une tragédie qui illustre de façon dramatique l'intrusion de la géopolitique dans le sport.</p>
+    
+    <ul>
+        <li><strong>5 septembre 1972</strong> : Prise d'otages de la délégation israélienne</li>
+        <li><strong>Auteurs</strong> : Commando palestinien "Septembre Noir"</li>
+        <li><strong>Revendication</strong> : Libération de prisonniers palestiniens</li>
+        <li><strong>Issue tragique</strong> : 11 athlètes et entraîneurs israéliens tués, ainsi que 1 policier allemand</li>
+        <li><strong>Impact</strong> : Interruption temporaire des Jeux, sécurité renforcée pour tous les JO futurs</li>
+    </ul>
+    
+    <p>Cet événement dramatique montre comment les tensions géopolitiques peuvent s'immiscer violemment dans les compétitions sportives, malgré l'idéal de neutralité olympique.</p>
+    
+    <h4>C. Lutte contre l'apartheid</h4>
+    
+    <p>La lutte contre l'apartheid en Afrique du Sud devient une cause majeure portée par le mouvement sportif international.</p>
+    
+    <h5>Boycott des JO de Montréal 1976</h5>
+    
+    <ul>
+        <li><strong>Pays africains boycottent</strong> les Jeux Olympiques</li>
+        <li><strong>Raison</strong> : Dénoncer l'apartheid en Afrique du Sud</li>
+        <li><strong>Protestation contre</strong> : La participation de certains pays ayant des liens sportifs avec l'Afrique du Sud</li>
+        <li><strong>Impact</strong> : Pression internationale accrue sur le régime sud-africain</li>
+    </ul>
+    
+    <h5>Exclusion de l'Afrique du Sud</h5>
+    
+    <ul>
+        <li><strong>Exclusion des compétitions internationales</strong> pendant plusieurs décennies</li>
+        <li><strong>Isolement sportif</strong> comme outil de pression politique</li>
+        <li><strong>Réintégration</strong> seulement après la fin de l'apartheid au début des années 1990</li>
+    </ul>
+    
+    <p>Cette mobilisation internationale démontre que le sport peut être utilisé comme un outil de pression politique et contribuer à isoler un régime condamné par la communauté internationale.</p>
+    
+    <h4>D. Opposition aux dictatures militaires : Argentine 1978</h4>
+    
+    <p>La Coupe du monde de football organisée en Argentine en 1978 pose la question de l'organisation d'événements sportifs majeurs par des régimes autoritaires.</p>
+    
+    <div class="highlight-box">
+        <h4>Contexte :</h4>
+        <ul>
+            <li><strong>Régime militaire</strong> depuis 1976 (junte militaire)</li>
+            <li><strong>Répression violente</strong> : disparitions forcées, torture</li>
+            <li><strong>30 000 "desaparecidos"</strong> (disparus)</li>
+            <li><strong>Appels au boycott</strong> largement ignorés par les fédérations et les États</li>
+        </ul>
+    </div>
+    
+    <p>Le débat porte sur la légitimité d'organiser un événement sportif dans un pays sous dictature. Les opposants dénoncent l'utilisation de la Coupe du monde par le régime pour :</p>
+    
+    <ul>
+        <li>Se donner une <strong>légitimité internationale</strong></li>
+        <li><strong>Détourner l'attention</strong> de la répression</li>
+        <li><strong>Masquer les violations des droits humains</strong></li>
+    </ul>
+    
+    <p>Malgré les appels au boycott, la compétition a bien lieu et l'Argentine remporte le tournoi, offrant au régime une victoire propagandiste majeure.</p>
+    
+    <h4>E. Droits humains contemporains : Coupe du monde au Qatar 2022</h4>
+    
+    <p>Plus récemment, la Coupe du monde de football au Qatar en 2022 a suscité des débats similaires sur l'éthique sportive et les droits humains.</p>
+    
+    <div class="highlight-box">
+        <h4>Critiques principales :</h4>
+        <ul>
+            <li><strong>Conditions de travail</strong> des ouvriers migrants (milliers de morts sur les chantiers)</li>
+            <li><strong>Droits des femmes</strong> dans un État conservateur</li>
+            <li><strong>Droits LGBT+</strong> : homosexualité illégale au Qatar</li>
+            <li><strong>Corruption</strong> dans l'attribution de la compétition</li>
+            <li><strong>Impact environnemental</strong> : stades climatisés dans le désert</li>
+        </ul>
+    </div>
+    
+    <h5>Soft power et "sportswashing"</h5>
+    
+    <p>Le Qatar utilise le sport comme outil de <strong>soft power</strong> pour :</p>
+    
+    <ul>
+        <li><strong>Améliorer son image internationale</strong></li>
+        <li><strong>"Sportswashing"</strong> : blanchir sa réputation par le sport</li>
+        <li><strong>S'affirmer comme acteur régional et mondial</strong></li>
+        <li><strong>Diversifier son économie</strong> au-delà du pétrole et du gaz</li>
+    </ul>
+    
+    <p>Les débats sur la Coupe du monde au Qatar illustrent la tension contemporaine entre :</p>
+    
+    <ul>
+        <li>L'<strong>universalité du sport</strong> et son caractère prétendument apolitique</li>
+        <li>La <strong>responsabilité éthique</strong> des instances sportives internationales</li>
+        <li>Les <strong>intérêts économiques</strong>considérables en jeu</li>
+        <li>La <strong>droits humains</strong> et les valeurs démocratiques</li>
+    </ul>
+        <p>Malgré les critiques et les appels au boycott, la compétition s'est déroulée, montrant une fois de plus la difficulté de concilier sport de haut niveau et exigences éthiques.</p>
+    
+    <h3>Autres exemples de protestations sportives</h3>
+    
+    <h4>Immigration et identité nationale</h4>
+    
+    <p>Les compétitions sportives deviennent également des espaces de débat sur l'immigration et l'identité nationale, particulièrement dans les sociétés multiculturelles.</p>
+    
+    <div class="highlight-box">
+        <h4>Exemple : France 1998 et le débat sur l'identité</h4>
+        <ul>
+            <li><strong>Coupe du monde en France</strong> : l'équipe nationale remporte le tournoi</li>
+            <li><strong>Équipe multiculturelle</strong> : joueurs d'origines diverses (africaine, maghrébine, antillaise)</li>
+            <li><strong>Symbole d'intégration</strong> pour une partie de la société ("Black-Blanc-Beur")</li>
+            <li><strong>Contestation de l'extrême droite</strong> : Jean-Marie Le Pen critique la composition de l'équipe</li>
+            <li><strong>Débat national</strong> sur l'identité française et l'immigration</li>
+        </ul>
+    </div>
+    
+    <p>Paradoxalement, quatre ans plus tard en 2002, Jean-Marie Le Pen se qualifie pour le second tour de l'élection présidentielle, montrant que la question identitaire reste profondément clivante dans la société française, malgré le moment d'union nationale de 1998.</p>
+    
+    <h4>Autres causes portées par le sport</h4>
+    
+    <ul>
+        <li><strong>Égalité de genre</strong> : lutte pour l'égalité des primes et de la visibilité entre sports masculins et féminins</li>
+        <li><strong>Environnement</strong> : critiques de l'empreinte carbone des grands événements sportifs</li>
+        <li><strong>Santé mentale</strong> : athlètes de haut niveau parlant de leurs difficultés psychologiques</li>
+        <li><strong>Corruption</strong> dans les instances sportives internationales</li>
+    </ul>
+</section>
+
+<section id="conclusion">
+    <h2>Conclusion : Le sport comme miroir des relations internationales</h2>
+    
+    <h3>Évolution historique</h3>
+    
+    <p>L'histoire du sport dans les relations internationales au XXe siècle peut se diviser en plusieurs phases distinctes :</p>
+    
+    <div class="schema-box">
+        <h3 class="schema-title">📊 Les phases de l'internationalisation sportive</h3>
+        <div class="schema-grid">
+            <div class="schema-item">
+                <div class="schema-item-title">Fin XIXe - 1914</div>
+                <div class="schema-item-content">
+                    <strong>Internationalisation limitée</strong>
+                    <ul style="margin-top: 0.5rem; text-align: left; font-size: 0.9rem;">
+                        <li>Phénomène élitiste</li>
+                        <li>Faible implication étatique</li>
+                        <li>Acteurs privés dominants</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="schema-item">
+                <div class="schema-item-title">Entre-deux-guerres (1918-1939)</div>
+                <div class="schema-item-content">
+                    <strong>Politisation croissante</strong>
+                    <ul style="margin-top: 0.5rem; text-align: left; font-size: 0.9rem;">
+                        <li>Instrumentalisation totalitaire</li>
+                        <li>Nationalisme exacerbé</li>
+                        <li>Sport comme propagande</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="schema-item">
+                <div class="schema-item-title">Guerre froide (1945-1991)</div>
+                <div class="schema-item-content">
+                    <strong>Affrontement idéologique</strong>
+                    <ul style="margin-top: 0.5rem; text-align: left; font-size: 0.9rem;">
+                        <li>Rivalité USA-URSS</li>
+                        <li>Boycotts olympiques</li>
+                        <li>Dopage d'État</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="schema-item">
+                <div class="schema-item-title">Depuis 1991</div>
+                <div class="schema-item-content">
+                    <strong>Universalisation et nouvelles problématiques</strong>
+                    <ul style="margin-top: 0.5rem; text-align: left; font-size: 0.9rem;">
+                        <li>Enjeux économiques massifs</li>
+                        <li>Soft power et sportswashing</li>
+                        <li>Droits humains et environnement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h3>Le sport : jamais "au-dessus de la politique"</h3>
+    
+    <p>Malgré l'idéal olympique proclamant que le sport est "au-dessus de la politique", l'histoire démontre le contraire. Le sport international a toujours été profondément politique :</p>
+    
+    <ul>
+        <li><strong>Reflet des tensions internationales</strong> : les rivalités géopolitiques s'expriment sur les terrains sportifs</li>
+        <li><strong>Outil de diplomatie et de propagande</strong> : utilisé par les États pour leur image et leur influence</li>
+        <li><strong>Espace de revendications</strong> : tribune pour porter des causes politiques et sociales</li>
+        <li><strong>Enjeu de puissance et de prestige national</strong> : les victoires sportives sont vécues comme des victoires nationales</li>
+    </ul>
+    
+    <h3>Paradoxes olympiques</h3>
+    
+    <p>L'olympisme incarne plusieurs paradoxes fondamentaux :</p>
+    
+    <table style="width: 100%; margin: 2rem 0; border-collapse: collapse;">
+        <thead>
+            <tr style="background-color: #667eea; color: white;">
+                <th style="padding: 1rem; text-align: left;">Idéal proclamé</th>
+                <th style="padding: 1rem; text-align: left;">Réalité observée</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #f8f9fa;">
+                <td style="padding: 1rem;">Paix et fraternité universelle</td>
+                <td style="padding: 1rem;">Affrontements nationalistes intenses</td>
+            </tr>
+            <tr>
+                <td style="padding: 1rem;">Neutralité politique</td>
+                <td style="padding: 1rem;">Instrumentalisation politique constante</td>
+            </tr>
+            <tr style="background-color: #f8f9fa;">
+                <td style="padding: 1rem;">Compétition entre individus</td>
+                <td style="padding: 1rem;">Compétition entre nations (tableau des médailles)</td>
+            </tr>
+            <tr>
+                <td style="padding: 1rem;">Esprit olympique et fair-play</td>
+                <td style="padding: 1rem;">Dopage, corruption, tricherie</td>
+            </tr>
+            <tr style="background-color: #f8f9fa;">
+                <td style="padding: 1rem;">Universalité et inclusion</td>
+                <td style="padding: 1rem;">Exclusions politiques et boycotts</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h3>Le CIO : entre idéal et réalité</h3>
+    
+    <p>Le Comité International Olympique se trouve perpétuellement tiraillé entre :</p>
+    
+    <ul>
+        <li><strong>Neutralité affichée</strong> : maintenir l'idéal olympique de paix</li>
+        <li><strong>Réalités géopolitiques</strong> : impossible d'échapper aux tensions internationales</li>
+        <li><strong>Intérêts économiques</strong> : droits de diffusion, sponsors, revenus considérables</li>
+        <li><strong>Pressions politiques</strong> : des États qui utilisent les JO pour leur prestige</li>
+    </ul>
+    
+    <h3>Évolutions contemporaines</h3>
+    
+    <h4>Nouvelles problématiques du XXIe siècle</h4>
+    
+    <p>Le sport international fait aujourd'hui face à de nouveaux défis :</p>
+    
+    <div class="highlight-box">
+        <h4>Enjeux contemporains :</h4>
+        <ul>
+            <li><strong>Soft power et sportswashing</strong> : États autoritaires utilisant le sport pour améliorer leur image (Qatar, Arabie Saoudite, Émirats, Chine)</li>
+            <li><strong>Économie financiarisée</strong> : montants colossaux des droits TV, des transferts, des sponsors</li>
+            <li><strong>Dopage technologique</strong> : nouvelles formes de tricherie plus sophistiquées</li>
+            <li><strong>Impact environnemental</strong> : empreinte carbone des événements sportifs mondiaux</li>
+            <li><strong>Droits humains</strong> : conditions des travailleurs, libertés fondamentales</li>
+            <li><strong>Égalité de genre</strong> : disparités persistantes entre sports masculins et féminins</li>
+            <li><strong>Santé mentale</strong> : pression sur les athlètes de haut niveau</li>
+            <li><strong>Corruption</strong> : scandales répétés dans les instances internationales (FIFA, IAAF)</li>
+        </ul>
+    </div>
+    
+    <h4>Universalisation du sport</h4>
+    
+    <p>Contrairement au début du XXe siècle, le sport est aujourd'hui véritablement universel :</p>
+    
+    <ul>
+        <li><strong>Participation quasi-totale</strong> : pratiquement tous les pays membres de l'ONU participent aux grandes compétitions</li>
+        <li><strong>Démocratisation complète</strong> : le sport touche toutes les couches sociales</li>
+        <li><strong>Phénomène social de masse</strong> : audiences de plusieurs milliards</li>
+        <li><strong>Médiatisation globale</strong> : télévision, internet, réseaux sociaux permettent une diffusion instantanée mondiale</li>
+    </ul>
+    
+    <h3>Le sport comme reflet de la mondialisation</h3>
+    
+    <p>Le sport international reflète les caractéristiques et les contradictions de la mondialisation contemporaine :</p>
+    
+    <ul>
+        <li><strong>Interconnexion mondiale</strong> : événements suivis simultanément sur tous les continents</li>
+        <li><strong>Inégalités</strong> : entre nations riches et pauvres, entre sports médiatisés et sports mineurs</li>
+        <li><strong>Tensions culturelles</strong> : universalisation vs particularismes nationaux</li>
+        <li><strong>Enjeux économiques</strong> : marchandisation du sport et résistances</li>
+        <li><strong>Questions éthiques</strong> : entre performance et dopage, entre business et valeurs</li>
+    </ul>
+    
+    <h3>Perspectives</h3>
+    
+    <p>Le sport continuera probablement à être un miroir des relations internationales, reflétant :</p>
+    
+    <ul>
+        <li>Les <strong>rapports de force géopolitiques</strong> : émergence de nouvelles puissances (Chine, Inde, Brésil)</li>
+        <li>Les <strong>débats de société</strong> : identité, immigration, genre, environnement</li>
+        <li>Les <strong>tensions internationales</strong> : nouvelles formes de guerre froide (USA-Chine)</li>
+        <li>Les <strong>défis globaux</strong> : changement climatique, pandémies, migrations</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <p><strong>En conclusion :</strong> Le sport n'a jamais été, et ne sera probablement jamais, "au-dessus de la politique". Il est au contraire un révélateur puissant des dynamiques qui traversent nos sociétés et structurent les relations entre États. Comprendre l'histoire du sport international, c'est comprendre une dimension essentielle de l'histoire des relations internationales au XXe siècle.</p>
+    </div>
+</section>
+
+{% endblock %}
+
+
+         
+
+

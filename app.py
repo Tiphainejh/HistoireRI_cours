@@ -52,6 +52,12 @@ def index():
             'titre': "Les relations internationales - Définitions",
             'description': 'Introduction historiographique et acteurs des relations internationales',
             'url': '/cours/definitions-ri'
+        },
+        {
+            'id': 'sport',
+            'titre': "Le sport dans les relations internationales",
+            'description': 'L\'internationalisation progressive du sport depuis la fin du XIXe siècle',
+            'url': '/cours/sport'
         }
     ]
     return render_template('index.html', cours=cours_list)
@@ -87,6 +93,10 @@ def cours_europe():
 @app.route('/cours/definitions-ri')
 def cours_definitions_ri():
     return render_template('cours_definitions_ri.html')
+
+@app.route('/cours/sport')
+def cours_definitions_ri():
+    return render_template('cours_sport.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
