@@ -95,7 +95,7 @@ def cours_definitions_ri():
     return render_template('cours_definitions_ri.html')
 
 @app.route('/cours/sport')
-def cours_definitions_ri():
+def cours_sport():
     return render_template('cours_sport.html')
 
 if __name__ == '__main__':
